@@ -118,7 +118,7 @@ export default function About() {
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <div className="aspect-[3/4] relative">
                   <img 
-                    src="/images/Screenshot 2025-02-24 at 22.49.20.png" 
+                    src="/images/man-male-young-person-icon-vector-10458750.jpg" 
                     alt="Turan Aslan"
                     className="object-cover w-full h-full"
                   />
@@ -133,7 +133,7 @@ export default function About() {
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <div className="aspect-[3/4] relative">
                   <img 
-                    src="/images/Screenshot 2025-02-24 at 22.49.20.png" 
+                    src="/images/man-male-young-person-icon-vector-10458750.jpg" 
                     alt="Gökhan Önder"
                     className="object-cover w-full h-full"
                   />
@@ -148,7 +148,7 @@ export default function About() {
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <div className="aspect-[3/4] relative">
                   <img 
-                    src="/images/Screenshot 2025-02-24 at 22.49.20.png" 
+                    src="/images/man-male-young-person-icon-vector-10458750.jpg" 
                     alt="Gökhan Temirpolat"
                     className="object-cover w-full h-full"
                   />
@@ -163,7 +163,7 @@ export default function About() {
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <div className="aspect-[3/4] relative">
                   <img 
-                    src="/images/Screenshot 2025-02-24 at 22.49.20.png" 
+                    src="/images/man-male-young-person-icon-vector-10458750.jpg" 
                     alt="Gökhan Çiftçi"
                     className="object-cover w-full h-full"
                   />
@@ -178,7 +178,7 @@ export default function About() {
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <div className="aspect-[3/4] relative">
                   <img 
-                    src="/images/Screenshot 2025-02-24 at 22.49.20.png" 
+                    src="/images/man-male-young-person-icon-vector-10458750.jpg" 
                     alt="Zafer Güven"
                     className="object-cover w-full h-full"
                   />
@@ -193,7 +193,7 @@ export default function About() {
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <div className="aspect-[3/4] relative">
                   <img 
-                    src="/images/Screenshot 2025-02-24 at 22.49.20.png" 
+                    src="/images/man-male-young-person-icon-vector-10458750.jpg" 
                     alt="Mahmut Demirel"
                     className="object-cover w-full h-full"
                   />
@@ -208,7 +208,7 @@ export default function About() {
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <div className="aspect-[3/4] relative">
                   <img 
-                    src="/images/Screenshot 2025-02-24 at 22.49.20.png" 
+                    src="/images/man-male-young-person-icon-vector-10458750.jpg" 
                     alt="Şeref Kaya"
                     className="object-cover w-full h-full"
                   />
@@ -223,7 +223,7 @@ export default function About() {
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <div className="aspect-[3/4] relative">
                   <img 
-                    src="/images/Screenshot 2025-02-24 at 22.49.20.png" 
+                    src="/images/man-male-young-person-icon-vector-10458750.jpg" 
                     alt="Sefa Aydin"
                     className="object-cover w-full h-full"
                   />
