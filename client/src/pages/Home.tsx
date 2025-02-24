@@ -66,11 +66,11 @@ export default function Home() {
               </ul>
               <Button variant="outline">{t('education.learnMore')}</Button>
             </div>
-            <div>
+            <div className="relative aspect-[4/3] overflow-hidden rounded-lg shadow-lg">
               <img 
                 src="/quran-education.jpg" 
-                alt="Education"
-                className="rounded-lg shadow-lg"
+                alt="Quran Education"
+                className="object-cover w-full h-full"
               />
             </div>
           </div>
