@@ -99,6 +99,142 @@ export default function About() {
               </div>
             </div>
           </section>
+
+          {/* Team Section */}
+          <section className="mt-24">
+            <h2 className="text-gray-500 mb-2">ONTMOET ONS TEAM</h2>
+            <div className="text-center mb-12">
+              <h3 className="text-[#CD3A2F] text-4xl font-serif mb-4">
+                De mensen achter Süleyman Çelebi Camii
+              </h3>
+              <p className="text-gray-700 max-w-3xl mx-auto">
+                Ons toegewijde team werkt hard om de moskee goed te beheren en de gemeenschap te ondersteunen. Zij staan klaar om alles soepel en georganiseerd te laten verlopen.
+              </p>
+            </div>
+
+            {/* Team Grid */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+              {/* Team Member Card 1 */}
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div className="aspect-[3/4] relative">
+                  <img 
+                    src="/images/Screenshot 2025-02-24 at 22.49.20.png" 
+                    alt="Turan Aslan"
+                    className="object-cover w-full h-full"
+                  />
+                </div>
+                <div className="p-4 text-center">
+                  <h4 className="font-medium text-lg">Turan Aslan</h4>
+                  <p className="text-gray-600">Imaam</p>
+                </div>
+              </div>
+
+              {/* Team Member Card 2 */}
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div className="aspect-[3/4] relative">
+                  <img 
+                    src="/images/Screenshot 2025-02-24 at 22.49.20.png" 
+                    alt="Gökhan Önder"
+                    className="object-cover w-full h-full"
+                  />
+                </div>
+                <div className="p-4 text-center">
+                  <h4 className="font-medium text-lg">Gökhan Önder</h4>
+                  <p className="text-gray-600">Voorzitter</p>
+                </div>
+              </div>
+
+              {/* Team Member Card 3 */}
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div className="aspect-[3/4] relative">
+                  <img 
+                    src="/images/Screenshot 2025-02-24 at 22.49.20.png" 
+                    alt="Gökhan Temirpolat"
+                    className="object-cover w-full h-full"
+                  />
+                </div>
+                <div className="p-4 text-center">
+                  <h4 className="font-medium text-lg">Gökhan Temirpolat</h4>
+                  <p className="text-gray-600">Vicevoorzitter</p>
+                </div>
+              </div>
+
+              {/* Team Member Card 4 */}
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div className="aspect-[3/4] relative">
+                  <img 
+                    src="/images/Screenshot 2025-02-24 at 22.49.20.png" 
+                    alt="Gökhan Çiftçi"
+                    className="object-cover w-full h-full"
+                  />
+                </div>
+                <div className="p-4 text-center">
+                  <h4 className="font-medium text-lg">Gökhan Çiftçi</h4>
+                  <p className="text-gray-600">Penningmeester</p>
+                </div>
+              </div>
+
+              {/* Team Member Card 5 */}
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div className="aspect-[3/4] relative">
+                  <img 
+                    src="/images/Screenshot 2025-02-24 at 22.49.20.png" 
+                    alt="Zafer Güven"
+                    className="object-cover w-full h-full"
+                  />
+                </div>
+                <div className="p-4 text-center">
+                  <h4 className="font-medium text-lg">Zafer Güven</h4>
+                  <p className="text-gray-600">Secretaris</p>
+                </div>
+              </div>
+
+              {/* Team Member Card 6 */}
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div className="aspect-[3/4] relative">
+                  <img 
+                    src="/images/Screenshot 2025-02-24 at 22.49.20.png" 
+                    alt="Mahmut Demirel"
+                    className="object-cover w-full h-full"
+                  />
+                </div>
+                <div className="p-4 text-center">
+                  <h4 className="font-medium text-lg">Mahmut Demirel</h4>
+                  <p className="text-gray-600">Kassier</p>
+                </div>
+              </div>
+
+              {/* Team Member Card 7 */}
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div className="aspect-[3/4] relative">
+                  <img 
+                    src="/images/Screenshot 2025-02-24 at 22.49.20.png" 
+                    alt="Şeref Kaya"
+                    className="object-cover w-full h-full"
+                  />
+                </div>
+                <div className="p-4 text-center">
+                  <h4 className="font-medium text-lg">Şeref Kaya</h4>
+                  <p className="text-gray-600">Lid</p>
+                </div>
+              </div>
+
+              {/* Team Member Card 8 */}
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div className="aspect-[3/4] relative">
+                  <img 
+                    src="/images/Screenshot 2025-02-24 at 22.49.20.png" 
+                    alt="Sefa Aydin"
+                    className="object-cover w-full h-full"
+                  />
+                </div>
+                <div className="p-4 text-center">
+                  <h4 className="font-medium text-lg">Sefa Aydin</h4>
+                  <p className="text-gray-600">Lid</p>
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
       </main>
 
