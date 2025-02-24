@@ -19,6 +19,7 @@ export default function Navigation() {
           <Link href="/services">{t('nav.services')}</Link>
           <Link href="/education">{t('nav.education')}</Link>
           <Link href="/contact">{t('nav.contact')}</Link>
+          <Link href="/donate" className="text-[#CD3A2F] font-medium">Doneren</Link>
         </div>
 
         <div className="flex items-center gap-4">
