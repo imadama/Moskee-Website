@@ -31,7 +31,7 @@ export default function About() {
               {/* Image */}
               <div className="relative aspect-[4/3] overflow-hidden rounded-lg shadow-lg">
                 <img 
-                  src="/images/mosque-interior.jpg"
+                  src="/images/Koran-lezen.jpg"
                   alt="Süleyman Çelebi Camii Interior"
                   className="object-cover w-full h-full"
                 />
