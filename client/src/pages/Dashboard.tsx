@@ -1,4 +1,3 @@
-```tsx
 import { useTranslation } from "react-i18next";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
@@ -114,4 +113,3 @@ export default function Dashboard() {
     </div>
   );
 }
-```
