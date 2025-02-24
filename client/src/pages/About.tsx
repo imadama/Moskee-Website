@@ -262,30 +262,30 @@ export default function About() {
               </div>
             </div>
           </section>
-
-          {/* Contact Section - REPLACED */}
-          <section
-            className="relative py-20 bg-cover bg-center mt-24"
-            style={{
-              backgroundImage: 'url("/images/contact-background.jpg")',
-              backgroundPosition: "center"
-            }}
-          >
-            <div className="absolute inset-0 bg-black/50" />
-            <div className="relative max-w-7xl mx-auto px-6 text-center text-white">
-              <h2 className="text-4xl md:text-5xl font-serif mb-6">
-                {t('contact.title')}
-              </h2>
-              <p className="text-lg mb-8 max-w-3xl mx-auto">
-                {t('contact.description')}
-              </p>
-              <Button className="bg-[#2D2B3F] text-white hover:bg-[#3D3B4F] text-lg px-8 py-6">
-                {t('contact.getInTouch')}
-              </Button>
-            </div>
-          </section>
         </div>
       </main>
+
+      {/* Contact Section - REPLACED */}
+      <section
+        className="relative py-20 bg-cover bg-center mt-24"
+        style={{
+          backgroundImage: 'url("/images/contact-background.jpg")',
+          backgroundPosition: "center"
+        }}
+      >
+        <div className="absolute inset-0 bg-black/50" />
+        <div className="relative max-w-7xl mx-auto px-6 text-center text-white">
+          <h2 className="text-4xl md:text-5xl font-serif mb-6">
+            {t('contact.title')}
+          </h2>
+          <p className="text-lg mb-8 max-w-3xl mx-auto">
+            {t('contact.description')}
+          </p>
+          <Button className="bg-[#2D2B3F] text-white hover:bg-[#3D3B4F] text-lg px-8 py-6">
+            {t('contact.getInTouch')}
+          </Button>
+        </div>
+      </section>
 
       <Footer />
     </div>
