@@ -19,10 +19,6 @@ export default function Navigation() {
           <Link href="/services">{t('nav.services')}</Link>
           <Link href="/education">{t('nav.education')}</Link>
           <Link href="/contact">{t('nav.contact')}</Link>
-        </div>
-
-        <div className="flex items-center gap-4">
-          <LanguageToggle />
           <Button variant="default" className="bg-[#CD3A2F] text-white hover:bg-[#CD3A2F]/90">
             Doneren
           </Button>
