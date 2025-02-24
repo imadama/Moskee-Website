@@ -13,29 +13,45 @@
     "description": "Tiel'in kalbinde yer alan Ahmet Yesevi Camii, Hollanda Diyanet Vakfı ile bağlantılı olarak herkes için güvenilir bir mekandır.",
     "learnMore": "Daha Fazla"
   },
-  "history": {
-    "title": "Zengin tarihli bir cami",
-    "subtitle": "1978'DEN BERİ TİEL'DEKİ GÜVENİLİR ADRESİNİZ",
-    "description": "Ahmet Yesevi Camii 1978'den beri şehrin vazgeçilmez bir parçası olmuştur. Yıllar içinde bölgedeki Müslümanlar için önemli bir sosyo-kültürel merkez haline gelmiştir. Vizyonumuz, topluluğumuzun manevi gelişimini teşvik etmek ve kapsayıcı, uyumlu bir toplum inşa etmektir.",
-    "readMore": "Daha Fazla"
+  "about": {
+    "title": "Hakkımızda",
+    "whoWeAre": {
+      "subtitle": "BİZ KİMİZ",
+      "title": "Gorinchem'deki güvenilir caminiz",
+      "description1": "Süleyman Çelebi Camii 1979'dan beri Gorinchem'in kalbinde yer almakta ve Hollanda Diyanet Vakfı'nın bir parçasıdır. Camimiz, Müslümanların ibadet, huzur ve topluluk bağı için bir araya geldiği manevi ve sosyal bir merkezdir.",
+      "description2": "Günlük namazların yanı sıra, çocuklar için Kuran dersleri, İslami nikah rehberliği ve cenaze hizmetleri gibi çeşitli hizmetler sunuyoruz. Ayrıca kadın komisyonumuz aracılığıyla, eğitim ve birlikteliğe odaklanan kadınlara özel etkinlikler düzenliyoruz.",
+      "description3": "Dini ve toplumsal ihtiyaçlara özen göstererek, herkesin kendini hoş karşılandığı ve sıkı bir topluluk içinde gelişebileceği bir yer olmayı hedefliyoruz.",
+      "joinButton": "Üye ol"
+    },
+    "mission": {
+      "subtitle": "MİSYONUMUZ VE VİZYONUMUZ",
+      "title": "Öğrenme, bağlanma ve büyüme",
+      "description": "Süleyman Çelebi Camii'nde eğitim ve topluluk merkezdedir. Çocuklara Kuran okumayı ve İslami değerleri öğretiyoruz. Vizyonumuz, inançlarında kökleşmiş ve topluma bağlı güçlü bir nesil yetiştirmektir.",
+      "bulletPoints": {
+        "education": "Çocuklar için eğitim",
+        "women": "Kadınlara özel aktiviteler ve toplantılar",
+        "community": "Güçlü ve sıkı bir topluluk inşa etmek"
+      },
+      "educationButton": "Eğitime katıl"
+    },
+    "team": {
+      "subtitle": "EKİBİMİZLE TANIŞIN",
+      "title": "Süleyman Çelebi Camii'nin arkasındaki insanlar",
+      "description": "Özverili ekibimiz, camiyi yönetmek ve topluluğu desteklemek için çok çalışıyor. Her şeyin sorunsuz ve düzenli yürümesi için hazırlar.",
+      "roles": {
+        "imam": "İmam",
+        "chairman": "Başkan",
+        "viceChairman": "Başkan Yardımcısı",
+        "treasurer": "Sayman",
+        "secretary": "Sekreter",
+        "cashier": "Veznedar",
+        "member": "Üye"
+      }
+    }
   },
-  "support": {
-    "title": "Üye olun ve camimizi destekleyin",
-    "description": "Topluluğumuz HDV Gorinchem'in temel taşıdır. Üye olun ve hedeflerimize ulaşmamıza yardımcı olun. Desteğinizle dini ve sosyal hizmetler sunmaya devam edebiliriz.",
-    "joinNow": "Şimdi Üye Ol"
-  },
-  "education": {
-    "title": "Herkes için destek ve eğitim",
-    "description": "HDV'mizde topluluğumuz için çeşitli hizmetler ve destek olanakları sunuyoruz:",
-    "bulletPoints": [
-      "İhtida, İslami nikah ve cenaze hizmetlerinde rehberlik ediyoruz",
-      "Toplum bakımı ve yardım hizmetlerimiz",
-      "Çocuklar için Kuran dersleri ve manevi eğitim, Pazar günleri Arapça iletişim"
-    ],
-    "learnMore": "Daha Fazla Bilgi"
-  },
-  "footer": {
-    "quickLinks": "Hızlı Bağlantılar",
-    "contact": "İletişim"
+  "contact": {
+    "title": "Bizimle İletişime Geçin",
+    "description": "Sorularınızı yanıtlamak için her zaman buradayız. İster erkek veya kadın toplantıları, hizmetlerimiz veya diğer etkinlikler hakkında olsun, daha fazla bilgi için bizimle iletişime geçmekten çekinmeyin. Size yardımcı olmaktan mutluluk duyarız.",
+    "getInTouch": "İletişime Geç"
   }
 }

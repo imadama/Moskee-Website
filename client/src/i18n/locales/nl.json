@@ -13,11 +13,46 @@
     "description": "Gevestigd in het hart van Gorinchem is Süleyman Çelebi Camii, verbonden met Nederlands Diyanet Vakfi, een vertrouwd plek voor iedereen.",
     "learnMore": "Lees meer"
   },
-  "history": {
-    "title": "Een moskee met een rijke geschiedenis",
-    "subtitle": "UW VERTROUWDE PLEK IN TIEL SINDS 1978",
-    "description": "Ahmet Yesevi Camii is sinds 1978 een onmisbaar deel uit van de stad. Door de jaren heen is het uitgegroeid tot een belangrijk sociaal-cultureel centrum voor moslims in de regio. Onze visie is het bevorderen van de spirituele groei van onze gemeenschap en het opbouwen van een inclusieve en harmonieuze samenleving.",
-    "readMore": "Lees meer"
+  "about": {
+    "title": "Over ons",
+    "whoWeAre": {
+      "subtitle": "WIE WIJ ZIJN",
+      "title": "Uw vertrouwde moskee in Gorinchem",
+      "description1": "Süleyman Çelebi Camii is sinds 1979 gevestigd in het hart van Gorinchem en maakt deel uit van de Hollanda Diyanet Vakfi. Onze moskee is een spiritueel en sociaal middelpunt waar moslims samenkomen voor gebed, rust en verbinding binnen de gemeenschap.",
+      "description2": "Naast dagelijkse gebeden bieden we diverse diensten aan, zoals Koranlessen voor kinderen, begeleiding bij islamitische huwelijken en ondersteuning bij uitvaarten. Ook organiseren we activiteiten voor vrouwen via onze vrouwencommissie, waarbij educatie en samenzijn centraal staan.",
+      "description3": "Met aandacht voor religieuze en maatschappelijke behoeften streven wij ernaar een plek te zijn waar iedereen zich welkom voelt en zich kan ontwikkelen binnen een hechte gemeenschap.",
+      "joinButton": "Lid worden"
+    },
+    "mission": {
+      "subtitle": "ONZE MISSIE EN VISIE",
+      "title": "Leren, verbinden en groeien",
+      "description": "Bij Süleyman Çelebi Camii staan onderwijs en gemeenschap centraal. Wij begeleiden kinderen bij het leren lezen van de Koran en het ontwikkelen van islamitische waarden. Onze visie is om een sterke generatie op te bouwen die geworteld is in hun geloof en betrokken is bij de samenleving.",
+      "bulletPoints": {
+        "education": "Onderwijs voor kinderen",
+        "women": "Activiteiten en bijeenkomsten speciaal voor vrouwen",
+        "community": "Samen bouwen aan een sterke en hechte gemeenschap"
+      },
+      "educationButton": "Onderwijs volgen"
+    },
+    "team": {
+      "subtitle": "ONTMOET ONS TEAM",
+      "title": "De mensen achter Süleyman Çelebi Camii",
+      "description": "Ons toegewijde team werkt hard om de moskee goed te beheren en de gemeenschap te ondersteunen. Zij staan klaar om alles soepel en georganiseerd te laten verlopen.",
+      "roles": {
+        "imam": "Imaam",
+        "chairman": "Voorzitter",
+        "viceChairman": "Vicevoorzitter",
+        "treasurer": "Penningmeester",
+        "secretary": "Secretaris",
+        "cashier": "Kassier",
+        "member": "Lid"
+      }
+    }
+  },
+  "contact": {
+    "title": "Neem gerust contact met ons op",
+    "description": "Wij staan altijd klaar om uw vragen te beantwoorden. Of het nu gaat om bijeenkomsten voor mannen of vrouwen, onze diensten, of andere activiteiten, neem gerust contact met ons op voor meer informatie. Wij helpen u graag verder.",
+    "getInTouch": "Contact opnemen"
   },
   "support": {
     "title": "Word lid en steun onze moskee",
@@ -34,13 +69,14 @@
     ],
     "learnMore": "Meer informatie"
   },
-  "contact": {
-    "title": "Neem gerust contact met ons op",
-    "description": "Wij staan altijd klaar om uw vragen te beantwoorden. Of het nu gaat om bijeenkomsten voor mannen of vrouwen, onze diensten, of andere activiteiten, neem gerust contact met ons op voor meer informatie. Wij helpen u graag verder.",
-    "getInTouch": "Contact opnemen"
-  },
   "footer": {
     "quickLinks": "Snelle links",
     "contact": "Contact"
+  },
+  "history": {
+    "title": "Een moskee met een rijke geschiedenis",
+    "subtitle": "UW VERTROUWDE PLEK IN TIEL SINDS 1978",
+    "description": "Ahmet Yesevi Camii is sinds 1978 een onmisbaar deel uit van de stad. Door de jaren heen is het uitgegroeid tot een belangrijk sociaal-cultureel centrum voor moslims in de regio. Onze visie is het bevorderen van de spirituele groei van onze gemeenschap en het opbouwen van een inclusieve en harmonieuze samenleving.",
+    "readMore": "Lees meer"
   }
 }
