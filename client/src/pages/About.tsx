@@ -25,7 +25,7 @@ export default function About() {
       <main className="flex-1 py-16">
         <div className="max-w-7xl mx-auto px-6">
           {/* Who We Are Section */}
-          <section>
+          <section className="mb-24">
             <h2 className="text-gray-500 mb-2">WIE WIJ ZIJN</h2>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
               {/* Image */}
@@ -54,6 +54,48 @@ export default function About() {
                 <Button variant="default">
                   Lid worden
                 </Button>
+              </div>
+            </div>
+          </section>
+
+          {/* Mission and Vision Section */}
+          <section>
+            <h2 className="text-gray-500 mb-2">ONZE MISSIE EN VISIE</h2>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+              {/* Content */}
+              <div>
+                <h3 className="text-[#CD3A2F] text-4xl font-serif mb-6">
+                  Leren, verbinden en groeien
+                </h3>
+                <p className="text-gray-700 mb-8">
+                  Bij Süleyman Çelebi Camii staan onderwijs en gemeenschap centraal. Wij begeleiden kinderen bij het leren lezen van de Koran en het ontwikkelen van islamitische waarden. Onze visie is om een sterke generatie op te bouwen die geworteld is in hun geloof en betrokken is bij de samenleving.
+                </p>
+                <ul className="space-y-4 mb-8">
+                  <li className="flex items-center gap-2">
+                    <span className="text-[#CD3A2F] text-xl">•</span>
+                    <span className="text-gray-700">Onderwijs voor kinderen</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <span className="text-[#CD3A2F] text-xl">•</span>
+                    <span className="text-gray-700">Activiteiten en bijeenkomsten speciaal voor vrouwen</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <span className="text-[#CD3A2F] text-xl">•</span>
+                    <span className="text-gray-700">Samen bouwen aan een sterke en hechte gemeenschap</span>
+                  </li>
+                </ul>
+                <Button variant="outline" className="bg-[#CD3A2F] text-white hover:bg-[#B22A20]">
+                  Onderwijs volgen
+                </Button>
+              </div>
+
+              {/* Image */}
+              <div className="relative aspect-[4/3] overflow-hidden rounded-lg shadow-lg">
+                <img 
+                  src="/images/Screenshot 2025-02-24 at 22.46.27.png"
+                  alt="Community Members"
+                  className="object-cover w-full h-full"
+                />
               </div>
             </div>
           </section>
