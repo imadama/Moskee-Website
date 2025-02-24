@@ -18,7 +18,7 @@ export default function Home() {
           <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="relative aspect-[4/3] overflow-hidden rounded-lg shadow-lg">
               <img 
-                src="/community-gathering.jpg" 
+                src="/attached_assets/278893532_1695855657422010_5176003691531302893_n.jpg" 
                 alt="Community gathering at the mosque"
                 className="object-cover w-full h-full"
               />
@@ -36,7 +36,7 @@ export default function Home() {
         <section 
           className="relative py-16 px-6 bg-cover bg-center" 
           style={{ 
-            backgroundImage: 'url("/mosque-interior.jpg")',
+            backgroundImage: 'url("/attached_assets/347017165_2005485646459008_8272806682621198989_n.jpg")',
             backgroundPosition: 'center'
           }}
         >
@@ -68,7 +68,7 @@ export default function Home() {
             </div>
             <div className="relative aspect-[4/3] overflow-hidden rounded-lg shadow-lg">
               <img 
-                src="/quran-education.jpg" 
+                src="/attached_assets/Koran-lezen.jpg" 
                 alt="Quran Education"
                 className="object-cover w-full h-full"
               />
@@ -80,7 +80,7 @@ export default function Home() {
         <section 
           className="relative py-20 bg-cover bg-center" 
           style={{ 
-            backgroundImage: 'url("/interior-mosque.jpg")',
+            backgroundImage: 'url("/attached_assets/325603027_1239750376653119_5878078296977396328_n.jpg")',
             backgroundPosition: 'center'
           }}
         >

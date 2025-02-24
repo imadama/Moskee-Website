@@ -8,7 +8,7 @@ export default function Hero() {
     <div 
       className="relative h-[600px] bg-cover bg-center" 
       style={{ 
-        backgroundImage: 'url("/aerial-mosque.jpg")',
+        backgroundImage: 'url("/attached_assets/346085382_570895138290601_5341274958606008999_n.jpg")',
         backgroundPosition: 'center 40%'
       }}
     >
