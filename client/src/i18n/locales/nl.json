@@ -24,21 +24,6 @@
     "description": "Onze gemeenschap is de hoeksteen van de HDV Gorinchem. Word lid en help ons om onze doelen te bereiken. Door uw steun kunnen we doorgaan met het aanbieden van religieuze en maatschappelijke diensten.",
     "joinNow": "Word nu lid"
   },
-  "services": {
-    "title": "Wat wij voor u kunnen betekenen",
-    "education": {
-      "title": "Bekeren",
-      "description": "Heeft u interesse in de Islam en/of denkt u erover om de Islam aan te nemen? Onze gemeenschap staat voor u klaar om u hierbij te helpen."
-    },
-    "prayer": {
-      "title": "Uitvaardienst",
-      "description": "Wij bieden uitvaartverzorging volgens de Islamitische gebruiken. Voor meer details kunt u altijd contact met ons opnemen."
-    },
-    "community": {
-      "title": "Trouwen",
-      "description": "Al onze imams helpen het bruidspaar de huwelijksceremonie volgens de Islam vast te leggen en te begeleiden."
-    }
-  },
   "education": {
     "title": "Ondersteuning en educatie voor iedereen",
     "description": "Bij onze HDV worden diverse diensten en ondersteuningsmogelijkheden voor onze gemeenschap aangeboden zoals:",
@@ -51,7 +36,7 @@
   },
   "contact": {
     "title": "Neem gerust contact met ons op",
-    "description": "Wij staan klaar voor vragen en gesprekken. Of het nu gaat om kennismaking, een afspraak of gewoon een kopje koffie.",
+    "description": "Wij staan altijd klaar om uw vragen te beantwoorden. Of het nu gaat om bijeenkomsten voor mannen of vrouwen, onze diensten, of andere activiteiten, neem gerust contact met ons op voor meer informatie. Wij helpen u graag verder.",
     "getInTouch": "Contact opnemen"
   },
   "footer": {
