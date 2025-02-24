@@ -15,22 +15,22 @@ export default function Home() {
       <main className="flex-1">
         {/* History Section */}
         <section className="py-16 px-6">
-          <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            <div>
-              <img 
-                src="/mosque-front.jpg" 
-                alt="Mosque Front"
-                className="rounded-lg shadow-lg"
-              />
+            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+              <div className="relative aspect-[4/3] overflow-hidden rounded-lg shadow-lg">
+                <img 
+                  src="/community-gathering.jpg" 
+                  alt="Community gathering at the mosque"
+                  className="object-cover w-full h-full"
+                />
+              </div>
+              <div>
+                <p className="text-primary font-medium mb-4">{t('history.subtitle')}</p>
+                <h2 className="text-3xl font-serif mb-6">{t('history.title')}</h2>
+                <p className="text-gray-600 mb-8">{t('history.description')}</p>
+                <Button variant="outline">{t('history.readMore')}</Button>
+              </div>
             </div>
-            <div>
-              <p className="text-primary font-medium mb-4">{t('history.subtitle')}</p>
-              <h2 className="text-3xl font-serif mb-6">{t('history.title')}</h2>
-              <p className="text-gray-600 mb-8">{t('history.description')}</p>
-              <Button variant="outline">{t('history.readMore')}</Button>
-            </div>
-          </div>
-        </section>
+          </section>
 
         {/* Support Section */}
         <section className="py-16 px-6 bg-[url('/mosque-pattern.jpg')] bg-cover text-white">
