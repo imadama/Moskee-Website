@@ -80,8 +80,8 @@ export default function Home() {
         <section 
           className="relative py-20 bg-cover bg-center" 
           style={{ 
-            backgroundImage: 'url("/mosque-prayer-hall.jpg")',
-            backgroundPosition: 'center'
+            backgroundImage: 'url("/mosque-prayer-hall-interior.jpg")',
+            backgroundPosition: 'center 40%'
           }}
         >
           <div className="absolute inset-0 bg-black/50" />
