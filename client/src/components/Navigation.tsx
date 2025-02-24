@@ -27,7 +27,6 @@ export default function Navigation() {
             href="https://betaalverzoek.rabobank.nl/betaalverzoek/?id=33XkU1UVTwKuCEUf5wy6JA"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block"
           >
             <Button variant="default" className="bg-[#CD3A2F] text-white hover:bg-[#CD3A2F]/90">
               Doneren
