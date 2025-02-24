@@ -10,7 +10,7 @@ export default function Navigation() {
     <nav className="bg-white py-4 px-6 shadow-sm">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <Link href="/">
-          <img src="/images/hdv-logo.png" alt="HDV Logo" className="h-14 w-auto" />
+          <img src="/images/hdv-logo.png" alt="HDV Logo" className="h-20 w-auto" />
         </Link>
 
         <div className="hidden md:flex items-center gap-8">
