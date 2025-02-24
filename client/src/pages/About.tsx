@@ -118,7 +118,7 @@ export default function About() {
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <div className="aspect-[3/4] relative">
                   <img 
-                    src="/images/man-male-young-person-icon-vector-10458750.jpg" 
+                    src="man-male-young-person-icon-vector-10458750.jpg" 
                     alt="Turan Aslan"
                     className="object-cover w-full h-full"
                   />
