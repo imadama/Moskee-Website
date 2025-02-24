@@ -5,8 +5,6 @@ import LanguageToggle from "./LanguageToggle";
 
 export default function Navigation() {
   const { t } = useTranslation();
-  // TODO: Replace with actual auth check
-  const isAuthenticated = true; // Temporary for testing
 
   return (
     <nav className="bg-white py-4 px-6 shadow-sm">
@@ -21,11 +19,6 @@ export default function Navigation() {
           <Link href="/services">{t('nav.services')}</Link>
           <Link href="/education">{t('nav.education')}</Link>
           <Link href="/contact">{t('nav.contact')}</Link>
-          {isAuthenticated && (
-            <Link href="/dashboard" className="text-[#CD3A2F] font-medium hover:text-[#9C2A22]">
-              Dashboard
-            </Link>
-          )}
           <a 
             href="https://betaalverzoek.rabobank.nl/betaalverzoek/?id=33XkU1UVTwKuCEUf5wy6JA" 
             target="_blank" 
