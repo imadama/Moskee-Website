@@ -1,0 +1,42 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "Over ons",
+    "services": "Diensten",
+    "education": "Onderwijs",
+    "contact": "Contact",
+    "donate": "Lid worden"
+  },
+  "hero": {
+    "title": "Diensten"
+  },
+  "services": {
+    "title": "Wat wij voor u kunnen betekenen",
+    "education": {
+      "title": "Bekeren",
+      "description": "Heeft u interesse in de Islam en/of denkt u erover om de Islam aan te nemen? Onze gemeenschap staat voor u klaar om u hierbij te helpen."
+    },
+    "prayer": {
+      "title": "Uitvaardienst",
+      "description": "Wij bieden uitvaartverzorging volgens de Islamitische gebruiken. Voor meer details kunt u altijd contact met ons opnemen."
+    },
+    "community": {
+      "title": "Trouwen",
+      "description": "Al onze imams helpen het bruidspaar de huwelijksceremonie volgens de Islam vast te leggen en te begeleiden."
+    }
+  },
+  "education": {
+    "title": "Onderwijs voor kinderen",
+    "description": "Wij bieden religieus onderwijs aan kinderen om de Koran en Islamitische waarden te ontdekken.",
+    "learnMore": "Leer meer"
+  },
+  "contact": {
+    "title": "Neem gerust contact met ons op",
+    "description": "Wij staan klaar voor vragen en gesprekken. Of het nu gaat om kennismaking, een afspraak of gewoon een kopje koffie.",
+    "getInTouch": "Contact opnemen"
+  },
+  "footer": {
+    "quickLinks": "Snelle links",
+    "contact": "Contact"
+  }
+}

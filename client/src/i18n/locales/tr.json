@@ -1,0 +1,42 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "services": "Hizmetler",
+    "education": "Eğitim",
+    "contact": "İletişim",
+    "donate": "Üye Ol"
+  },
+  "hero": {
+    "title": "Hizmetler"
+  },
+  "services": {
+    "title": "Sizin için neler yapabiliriz",
+    "education": {
+      "title": "İslam'a Giriş",
+      "description": "İslam'a ilgi duyuyor ve/veya Müslüman olmayı düşünüyor musunuz? Topluluğumuz size yardımcı olmak için hazır."
+    },
+    "prayer": {
+      "title": "Cenaze Hizmetleri",
+      "description": "İslami usullere uygun cenaze hizmetleri sunuyoruz. Detaylı bilgi için bizimle iletişime geçebilirsiniz."
+    },
+    "community": {
+      "title": "Nikah",
+      "description": "İmamlarımız, çiftlerin İslami nikah törenlerini gerçekleştirmekte ve rehberlik etmektedir."
+    }
+  },
+  "education": {
+    "title": "Çocuklar için Eğitim",
+    "description": "Çocuklara Kuran'ı ve İslami değerleri öğrenmeleri için dini eğitim veriyoruz.",
+    "learnMore": "Daha Fazla Bilgi"
+  },
+  "contact": {
+    "title": "Bizimle İletişime Geçin",
+    "description": "Sorularınız ve görüşmeleriniz için hazırız. İster tanışmak için, ister randevu almak için, isterse bir fincan kahve içmek için.",
+    "getInTouch": "İletişime Geç"
+  },
+  "footer": {
+    "quickLinks": "Hızlı Bağlantılar",
+    "contact": "İletişim"
+  }
+}
