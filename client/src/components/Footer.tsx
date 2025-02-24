@@ -92,9 +92,9 @@ export default function Footer() {
               Contact
             </h3>
             <ul className="space-y-3 text-gray-600">
-              <li>Hoefslag 9, 4205 NK Gorinchem</li>
+              <li>Koornmarkt 20, 4001 KW Tiel</li>
               <li>085-0667039</li>
-              <li>hdvgorinchem@gmail.com</li>
+              <li>hdvtiel@gmail.com</li>
             </ul>
           </div>
         </div>
