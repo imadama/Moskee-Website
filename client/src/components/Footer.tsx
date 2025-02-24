@@ -1,4 +1,3 @@
-import { useTranslation } from "react-i18next";
 import { Link } from "wouter";
 import { SiFacebook, SiInstagram } from "react-icons/si";
 
@@ -10,7 +9,7 @@ export default function Footer() {
           {/* Logo and Social Media */}
           <div>
             <img 
-              src="https://nederland.diyanet.gov.tr/Files/images/logoweb2.png" 
+              src="/images/hdv-logo.png" 
               alt="HDV Logo" 
               className="h-24 w-auto mb-6" 
             />
