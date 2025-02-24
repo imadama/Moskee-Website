@@ -23,7 +23,15 @@ export default function Navigation() {
 
         <div className="flex items-center gap-4">
           <LanguageToggle />
-          <Button className="bg-primary text-white">{t('nav.donate')}</Button>
+          <a 
+            href="https://betaalverzoek.rabobank.nl/betaalverzoek/?id=33XkU1UVTwKuCEUf5wy6JA"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button className="bg-primary text-white">
+              {t('nav.donate')}
+            </Button>
+          </a>
         </div>
       </div>
     </nav>
