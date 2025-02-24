@@ -8,32 +8,31 @@
     "donate": "Üye Ol"
   },
   "hero": {
-    "title": "Hizmetler"
+    "welcome": "Ahmet Yesevi Camii'ne Hoşgeldiniz",
+    "title": "İbadet, topluluk ve ilham merkezi",
+    "description": "Tiel'in kalbinde yer alan Ahmet Yesevi Camii, Hollanda Diyanet Vakfı ile bağlantılı olarak herkes için güvenilir bir mekandır.",
+    "learnMore": "Daha Fazla"
   },
-  "services": {
-    "title": "Sizin için neler yapabiliriz",
-    "education": {
-      "title": "İslam'a Giriş",
-      "description": "İslam'a ilgi duyuyor ve/veya Müslüman olmayı düşünüyor musunuz? Topluluğumuz size yardımcı olmak için hazır."
-    },
-    "prayer": {
-      "title": "Cenaze Hizmetleri",
-      "description": "İslami usullere uygun cenaze hizmetleri sunuyoruz. Detaylı bilgi için bizimle iletişime geçebilirsiniz."
-    },
-    "community": {
-      "title": "Nikah",
-      "description": "İmamlarımız, çiftlerin İslami nikah törenlerini gerçekleştirmekte ve rehberlik etmektedir."
-    }
+  "history": {
+    "title": "Zengin tarihli bir cami",
+    "subtitle": "1978'DEN BERİ TİEL'DEKİ GÜVENİLİR ADRESİNİZ",
+    "description": "Ahmet Yesevi Camii 1978'den beri şehrin vazgeçilmez bir parçası olmuştur. Yıllar içinde bölgedeki Müslümanlar için önemli bir sosyo-kültürel merkez haline gelmiştir. Vizyonumuz, topluluğumuzun manevi gelişimini teşvik etmek ve kapsayıcı, uyumlu bir toplum inşa etmektir.",
+    "readMore": "Daha Fazla"
+  },
+  "support": {
+    "title": "Üye olun ve camimizi destekleyin",
+    "description": "Topluluğumuz HDV Gorinchem'in temel taşıdır. Üye olun ve hedeflerimize ulaşmamıza yardımcı olun. Desteğinizle dini ve sosyal hizmetler sunmaya devam edebiliriz.",
+    "joinNow": "Şimdi Üye Ol"
   },
   "education": {
-    "title": "Çocuklar için Eğitim",
-    "description": "Çocuklara Kuran'ı ve İslami değerleri öğrenmeleri için dini eğitim veriyoruz.",
+    "title": "Herkes için destek ve eğitim",
+    "description": "HDV'mizde topluluğumuz için çeşitli hizmetler ve destek olanakları sunuyoruz:",
+    "bulletPoints": [
+      "İhtida, İslami nikah ve cenaze hizmetlerinde rehberlik ediyoruz",
+      "Toplum bakımı ve yardım hizmetlerimiz",
+      "Çocuklar için Kuran dersleri ve manevi eğitim, Pazar günleri Arapça iletişim"
+    ],
     "learnMore": "Daha Fazla Bilgi"
-  },
-  "contact": {
-    "title": "Bizimle İletişime Geçin",
-    "description": "Sorularınız ve görüşmeleriniz için hazırız. İster tanışmak için, ister randevu almak için, isterse bir fincan kahve içmek için.",
-    "getInTouch": "İletişime Geç"
   },
   "footer": {
     "quickLinks": "Hızlı Bağlantılar",

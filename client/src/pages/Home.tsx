@@ -1,10 +1,8 @@
 import { useTranslation } from "react-i18next";
 import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
-import ServiceCard from "@/components/ServiceCard";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
-import { Book, Heart, Building2 } from "lucide-react";
 
 export default function Home() {
   const { t } = useTranslation();
@@ -12,74 +10,62 @@ export default function Home() {
   return (
     <div className="min-h-screen flex flex-col">
       <Navigation />
-
       <Hero />
 
       <main className="flex-1">
-        {/* Services Section */}
+        {/* History Section */}
         <section className="py-16 px-6">
-          <div className="max-w-7xl mx-auto">
-            <h2 className="text-3xl font-serif text-center mb-12">
-              {t('services.title')}
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <ServiceCard 
-                icon={Book}
-                title={t('services.education.title')}
-                description={t('services.education.description')}
-              />
-              <ServiceCard 
-                icon={Building2}
-                title={t('services.prayer.title')}
-                description={t('services.prayer.description')}
-              />
-              <ServiceCard 
-                icon={Heart}
-                title={t('services.community.title')}
-                description={t('services.community.description')}
+          <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div>
+              <img 
+                src="/mosque-front.jpg" 
+                alt="Mosque Front"
+                className="rounded-lg shadow-lg"
               />
             </div>
+            <div>
+              <p className="text-primary font-medium mb-4">{t('history.subtitle')}</p>
+              <h2 className="text-3xl font-serif mb-6">{t('history.title')}</h2>
+              <p className="text-gray-600 mb-8">{t('history.description')}</p>
+              <Button variant="outline">{t('history.readMore')}</Button>
+            </div>
+          </div>
+        </section>
+
+        {/* Support Section */}
+        <section className="py-16 px-6 bg-[url('/mosque-pattern.jpg')] bg-cover text-white">
+          <div className="max-w-7xl mx-auto text-center">
+            <h2 className="text-3xl font-serif mb-6">{t('support.title')}</h2>
+            <p className="mb-8 max-w-2xl mx-auto">{t('support.description')}</p>
+            <Button className="bg-white text-black hover:bg-gray-100">
+              {t('support.joinNow')}
+            </Button>
           </div>
         </section>
 
         {/* Education Section */}
-        <section className="bg-gray-50 py-16 px-6">
-          <div className="max-w-7xl mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-              <div>
-                <h2 className="text-3xl font-serif mb-6">
-                  {t('education.title')}
-                </h2>
-                <p className="text-gray-600 mb-8">
-                  {t('education.description')}
-                </p>
-                <Button className="bg-primary text-white">
-                  {t('education.learnMore')}
-                </Button>
-              </div>
-              <div>
-                <img 
-                  src="https://placehold.co/600x400" 
-                  alt="Education"
-                  className="rounded-lg shadow-lg"
-                />
-              </div>
+        <section className="py-16 px-6">
+          <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-3xl font-serif mb-6">{t('education.title')}</h2>
+              <p className="text-gray-600 mb-6">{t('education.description')}</p>
+              <ul className="space-y-4 mb-8">
+                {t('education.bulletPoints', { returnObjects: true }).map((point: string, index: number) => (
+                  <li key={index} className="flex items-start">
+                    <span className="text-primary mr-2">•</span>
+                    <span>{point}</span>
+                  </li>
+                ))}
+              </ul>
+              <Button variant="outline">{t('education.learnMore')}</Button>
             </div>
-          </div>
-        </section>
-
-        {/* Contact Section */}
-        <section className="py-16 px-6 bg-[#2D2B3F] text-white">
-          <div className="max-w-7xl mx-auto text-center">
-            <h2 className="text-3xl font-serif mb-6">
-              {t('contact.title')}
-            </h2>
-            <p className="mb-8 max-w-2xl mx-auto">
-              {t('contact.description')}
-            </p>
-            <Button className="bg-primary text-white">
-              {t('contact.getInTouch')}
-            </Button>
+            <div>
+              <img 
+                src="/quran-education.jpg" 
+                alt="Education"
+                className="rounded-lg shadow-lg"
+              />
+            </div>
           </div>
         </section>
       </main>

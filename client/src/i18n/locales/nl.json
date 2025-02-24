@@ -8,7 +8,21 @@
     "donate": "Lid worden"
   },
   "hero": {
-    "title": "Diensten"
+    "welcome": "Welkom bij Ahmet Yesevi Camii",
+    "title": "Een plek van gebed, gemeenschap en inspiratie",
+    "description": "Gevestigd in het hart van Tiel is Ahmet Yesevi Camii, verbonden met Nederlands Diyanet Vakfi, een vertrouwd plek voor iedereen.",
+    "learnMore": "Lees meer"
+  },
+  "history": {
+    "title": "Een moskee met een rijke geschiedenis",
+    "subtitle": "UW VERTROUWDE PLEK IN TIEL SINDS 1978",
+    "description": "Ahmet Yesevi Camii is sinds 1978 een onmisbaar deel uit van de stad. Door de jaren heen is het uitgegroeid tot een belangrijk sociaal-cultureel centrum voor moslims in de regio. Onze visie is het bevorderen van de spirituele groei van onze gemeenschap en het opbouwen van een inclusieve en harmonieuze samenleving.",
+    "readMore": "Lees meer"
+  },
+  "support": {
+    "title": "Word lid en steun onze moskee",
+    "description": "Onze gemeenschap is de hoeksteen van de HDV Gorinchem. Word lid en help ons om onze doelen te bereiken. Door uw steun kunnen we doorgaan met het aanbieden van religieuze en maatschappelijke diensten.",
+    "joinNow": "Word nu lid"
   },
   "services": {
     "title": "Wat wij voor u kunnen betekenen",
@@ -26,9 +40,14 @@
     }
   },
   "education": {
-    "title": "Onderwijs voor kinderen",
-    "description": "Wij bieden religieus onderwijs aan kinderen om de Koran en Islamitische waarden te ontdekken.",
-    "learnMore": "Leer meer"
+    "title": "Ondersteuning en educatie voor iedereen",
+    "description": "Bij onze HDV worden diverse diensten en ondersteuningsmogelijkheden voor onze gemeenschap aangeboden zoals:",
+    "bulletPoints": [
+      "Wij begeleiden bij bekering, verzorgen islamitisch huwelijken en uitvaarten",
+      "Onze gemeenschapszorg en hulpverlening",
+      "Voor kinderen bieden we Koranonderwijs en spirituele educatie, met Arabische communicatie op zondag"
+    ],
+    "learnMore": "Meer informatie"
   },
   "contact": {
     "title": "Neem gerust contact met ons op",
