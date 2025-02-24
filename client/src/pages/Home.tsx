@@ -33,8 +33,15 @@ export default function Home() {
           </section>
 
         {/* Support Section */}
-        <section className="py-16 px-6 bg-[url('/mosque-pattern.jpg')] bg-cover text-white">
-          <div className="max-w-7xl mx-auto text-center">
+        <section 
+          className="relative py-16 px-6 bg-cover bg-center" 
+          style={{ 
+            backgroundImage: 'url("/mosque-interior.jpg")',
+            backgroundPosition: 'center'
+          }}
+        >
+          <div className="absolute inset-0 bg-black/60" />
+          <div className="relative max-w-7xl mx-auto text-center text-white">
             <h2 className="text-3xl font-serif mb-6">{t('support.title')}</h2>
             <p className="mb-8 max-w-2xl mx-auto">{t('support.description')}</p>
             <Button className="bg-white text-black hover:bg-gray-100">
