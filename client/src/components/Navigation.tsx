@@ -23,15 +23,9 @@ export default function Navigation() {
 
         <div className="flex items-center gap-4">
           <LanguageToggle />
-          <a 
-            href="https://betaalverzoek.rabobank.nl/betaalverzoek/?id=33XkU1UVTwKuCEUf5wy6JA"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Button variant="default" className="bg-[#CD3A2F] text-white hover:bg-[#CD3A2F]/90">
-              Doneren
-            </Button>
-          </a>
+          <Button variant="default" className="bg-[#CD3A2F] text-white hover:bg-[#CD3A2F]/90">
+            Doneren
+          </Button>
         </div>
       </div>
     </nav>
