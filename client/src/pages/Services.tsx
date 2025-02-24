@@ -1,0 +1,51 @@
+import { useTranslation } from "react-i18next";
+import Navigation from "@/components/Navigation";
+import ServiceCard from "@/components/ServiceCard";
+import Footer from "@/components/Footer";
+import { Book, Heart, Building2 } from "lucide-react";
+
+export default function Services() {
+  const { t } = useTranslation();
+
+  return (
+    <div className="min-h-screen flex flex-col">
+      <Navigation />
+
+      {/* Services Hero */}
+      <div className="bg-[#2D2B3F] text-white py-16">
+        <div className="max-w-7xl mx-auto px-6">
+          <h1 className="text-4xl md:text-6xl font-serif mb-6">
+            {t('services.title')}
+          </h1>
+        </div>
+      </div>
+
+      <main className="flex-1">
+        {/* Services Section */}
+        <section className="py-16 px-6">
+          <div className="max-w-7xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <ServiceCard 
+                icon={Book}
+                title={t('services.education.title')}
+                description={t('services.education.description')}
+              />
+              <ServiceCard 
+                icon={Building2}
+                title={t('services.prayer.title')}
+                description={t('services.prayer.description')}
+              />
+              <ServiceCard 
+                icon={Heart}
+                title={t('services.community.title')}
+                description={t('services.community.description')}
+              />
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <Footer />
+    </div>
+  );
+}

@@ -10,12 +10,9 @@ export default function Navigation() {
     <nav className="bg-white py-4 px-6 shadow-sm">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <Link href="/">
-          <a className="flex items-center gap-2">
-            <img src="https://placehold.co/50x50" alt="HDV Logo" className="h-12 w-12" />
-            <span className="font-serif text-xl">HDV Gorinchem</span>
-          </a>
+          <img src="https://placehold.co/50x50" alt="HDV Logo" className="h-12 w-12" />
         </Link>
-        
+
         <div className="hidden md:flex items-center gap-8">
           <Link href="/">{t('nav.home')}</Link>
           <Link href="/about">{t('nav.about')}</Link>
