@@ -1,9 +1,12 @@
+import { useTranslation } from "react-i18next";
 import { Link } from "wouter";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 
 export default function About() {
+  const { t } = useTranslation();
+
   return (
     <div className="min-h-screen flex flex-col">
       <Navigation />
@@ -260,18 +263,24 @@ export default function About() {
             </div>
           </section>
 
-          {/* Contact Section */}
-          <section className="mt-24">
-            <h2 className="text-gray-500 mb-2">CONTACT</h2>
-            <div className="text-center">
-              <h3 className="text-[#CD3A2F] text-4xl font-serif mb-4">
-                Neem gerust contact met ons op
-              </h3>
-              <p className="text-gray-700 max-w-3xl mx-auto mb-8">
-                Wij staan altijd klaar om uw vragen te beantwoorden. Of het nu gaat om bijeenkomsten voor mannen of vrouwen, onze diensten, of andere activiteiten, neem gerust contact met ons op voor meer informatie. Wij helpen u graag verder.
+          {/* Contact Section - REPLACED */}
+          <section
+            className="relative py-20 bg-cover bg-center"
+            style={{
+              backgroundImage: 'url("/images/contact-background.jpg")',
+              backgroundPosition: "center"
+            }}
+          >
+            <div className="absolute inset-0 bg-black/50" />
+            <div className="relative max-w-7xl mx-auto px-6 text-center text-white">
+              <h2 className="text-4xl md:text-5xl font-serif mb-6">
+                {t('contact.title')}
+              </h2>
+              <p className="text-lg mb-8 max-w-3xl mx-auto">
+                {t('contact.description')}
               </p>
-              <Button variant="outline" className="bg-[#CD3A2F] text-white hover:bg-[#B22A20]">
-                Contact opnemen
+              <Button className="bg-[#2D2B3F] text-white hover:bg-[#3D3B4F] text-lg px-8 py-6">
+                {t('contact.getInTouch')}
               </Button>
             </div>
           </section>
