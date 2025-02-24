@@ -265,7 +265,7 @@ export default function About() {
 
           {/* Contact Section - REPLACED */}
           <section
-            className="relative py-20 bg-cover bg-center"
+            className="relative py-20 bg-cover bg-center mt-24"
             style={{
               backgroundImage: 'url("/images/contact-background.jpg")',
               backgroundPosition: "center"
