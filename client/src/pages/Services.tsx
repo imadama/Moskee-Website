@@ -51,10 +51,10 @@ export default function Services() {
         </section>
 
         {/* Core Values Section */}
-        <section className="pb-16 px-6">
+        <section className="pb-12 px-6">
           <div className="max-w-7xl mx-auto text-center">
-            <h2 className="text-2xl font-medium mb-4">{t('services.coreValues.title')}</h2>
-            <p className="text-gray-700 max-w-4xl mx-auto">
+            <h2 className="text-xl font-medium mb-2">{t('services.coreValues.title')}</h2>
+            <p className="text-gray-700 max-w-3xl mx-auto text-sm">
               {t('services.coreValues.description')}
             </p>
           </div>
