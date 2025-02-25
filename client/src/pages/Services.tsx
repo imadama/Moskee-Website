@@ -68,8 +68,8 @@ export default function Services() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
               <div className="relative aspect-video rounded-lg overflow-hidden">
                 <img
-                  src="/images/464793684_2364026023938300_452528394103786617_n.jpg"
-                  alt="Children with certificates"
+                  src="/images/480035679_2449929562014612_1981348576737948205_n.jpg"
+                  alt="Children's education session"
                   className="object-cover w-full h-full"
                 />
               </div>
