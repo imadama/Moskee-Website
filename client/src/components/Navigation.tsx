@@ -54,7 +54,7 @@ export default function Navigation() {
         >
           <div className="flex flex-col h-full p-6">
             <div className="flex justify-between items-center mb-8">
-              <Link href="/">
+              <Link href="/" onClick={() => setIsMobileMenuOpen(false)}>
                 <img src="/images/hdv-logo.png" alt="HDV Logo" className="h-20 w-auto" />
               </Link>
               <button
@@ -81,9 +81,15 @@ export default function Navigation() {
               <Link href="/contact" onClick={() => setIsMobileMenuOpen(false)}>
                 {t('nav.contact')}
               </Link>
-              <Link href="/donate" onClick={() => setIsMobileMenuOpen(false)}>
-                {t('nav.donate')}
-              </Link>
+              <a 
+                href="https://betaalverzoek.rabobank.nl/betaalverzoek/?id=33XkU1UVTwKuCEUf5wy6JA" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="text-white hover:text-gray-200"
+              >
+                Doneren
+              </a>
             </div>
 
             <div className="mt-auto">
