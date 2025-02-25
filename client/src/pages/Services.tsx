@@ -95,6 +95,26 @@ export default function Services() {
             </div>
           </div>
         </section>
+
+        {/* Contact Section */}
+        <section className="bg-[#2D2B3F] text-white py-16 px-6">
+          <div className="max-w-7xl mx-auto text-center">
+            <h2 className="text-3xl md:text-4xl font-serif mb-4">
+              {t('contact.title')}
+            </h2>
+            <p className="text-lg mb-8 max-w-2xl mx-auto">
+              {t('contact.description')}
+            </p>
+            <Button 
+              asChild
+              className="bg-white text-[#2D2B3F] hover:bg-gray-100"
+            >
+              <Link href="/contact">
+                {t('contact.getInTouch')}
+              </Link>
+            </Button>
+          </div>
+        </section>
       </main>
 
       <Footer />
