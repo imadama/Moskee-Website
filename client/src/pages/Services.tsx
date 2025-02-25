@@ -97,7 +97,14 @@ export default function Services() {
         </section>
 
         {/* Contact Section */}
-        <section className="bg-[#2D2B3F] text-white py-16 px-6">
+        <section 
+          className="bg-[#2D2B3F] text-white py-16 px-6" 
+          style={{ 
+            backgroundImage: 'linear-gradient(rgba(45, 43, 63, 0.9), rgba(45, 43, 63, 0.9)), url(/images/contact-background.jpg)',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center'
+          }}
+        >
           <div className="max-w-7xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-serif mb-4">
               {t('contact.title')}
