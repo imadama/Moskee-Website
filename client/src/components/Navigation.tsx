@@ -48,7 +48,7 @@ export default function Navigation() {
 
         {/* Mobile Menu Overlay */}
         <div 
-          className={`fixed inset-0 bg-[#2D2B3F] z-50 transition-transform duration-300 md:hidden ${
+          className={`fixed inset-0 bg-white z-50 transition-transform duration-300 md:hidden ${
             isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'
           }`}
         >
@@ -58,14 +58,14 @@ export default function Navigation() {
                 <img src="/images/hdv-logo.png" alt="HDV Logo" className="h-20 w-auto" />
               </Link>
               <button
-                className="text-white"
+                className="text-gray-600"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 <X size={32} />
               </button>
             </div>
 
-            <div className="flex flex-col space-y-6 text-white text-xl">
+            <div className="flex flex-col space-y-6 text-gray-900 text-xl">
               <Link href="/" onClick={() => setIsMobileMenuOpen(false)}>
                 {t('nav.home')}
               </Link>
@@ -86,7 +86,7 @@ export default function Navigation() {
                 target="_blank" 
                 rel="noopener noreferrer" 
                 onClick={() => setIsMobileMenuOpen(false)}
-                className="text-white hover:text-gray-200"
+                className="text-gray-900 hover:text-gray-600"
               >
                 Doneren
               </a>
