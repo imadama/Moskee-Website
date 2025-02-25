@@ -59,11 +59,28 @@
     "description": "Onze gemeenschap is de hoeksteen van de HDV Gorinchem. Word lid en help ons om onze doelen te bereiken. Door uw steun kunnen we doorgaan met het aanbieden van religieuze en maatschappelijke diensten.",
     "joinNow": "Word nu lid"
   },
+  "services": {
+    "title": "Diensten",
+    "subtitle": "Wat wij voor u kunnen betekenen",
+    "description": "Bij Ahmet Yesevi Camii bieden we diverse diensten aan om onze gemeenschap te ondersteunen in belangrijke levensmomenten. Van spirituele begeleiding tot praktische ondersteuning, wij staan klaar om te helpen.",
+    "education": {
+      "title": "Bekeren",
+      "description": "Heeft u interesse om de Islam te leren kennen of te bekeren? Onze imam en begeleiders bieden persoonlijke begeleiding en ondersteuning om u op uw spirituele reis te helpen."
+    },
+    "prayer": {
+      "title": "Uitvaardienst",
+      "description": "Wij bieden volledige ondersteuning bij islamitische uitvaarten, inclusief begeleiding bij de rituelen en praktische regelingen. Onze uitvaardienst helpt families in moeilijke tijden met zorg en respect."
+    },
+    "community": {
+      "title": "Trouwen",
+      "description": "Ahmet Yesevi Camii verzorgt islamitische huwelijksceremonies volgens de Sunnah. Neem contact op om uw ceremonie te bespreken en te plannen."
+    }
+  },
   "education": {
     "title": "Ondersteuning en educatie voor iedereen",
     "description": "Bij onze HDV worden diverse diensten en ondersteuningsmogelijkheden voor onze gemeenschap aangeboden zoals:",
     "bulletPoints": [
-      "Wij begeleiden bij bekering, verzorgen islamitisch huwelijken en uitvaarten",
+      "Wij begeleiden bij bekering, verzorgen islamitische huwelijken en uitvaarten",
       "Onze gemeenschapszorg en hulpverlening",
       "Voor kinderen bieden we Koranonderwijs en spirituele educatie, met Arabische communicatie op zondag"
     ],

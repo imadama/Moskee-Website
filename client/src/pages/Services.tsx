@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 import Navigation from "@/components/Navigation";
 import ServiceCard from "@/components/ServiceCard";
 import Footer from "@/components/Footer";
-import { Book, Heart, Building2 } from "lucide-react";
+import { Book, Heart, Church } from "lucide-react";
 
 export default function Services() {
   const { t } = useTranslation();
@@ -17,6 +17,12 @@ export default function Services() {
           <h1 className="text-4xl md:text-6xl font-serif mb-6">
             {t('services.title')}
           </h1>
+          <h2 className="text-2xl md:text-3xl mb-4">
+            {t('services.subtitle')}
+          </h2>
+          <p className="text-lg max-w-3xl">
+            {t('services.description')}
+          </p>
         </div>
       </div>
 
@@ -31,7 +37,7 @@ export default function Services() {
                 description={t('services.education.description')}
               />
               <ServiceCard 
-                icon={Building2}
+                icon={Church}
                 title={t('services.prayer.title')}
                 description={t('services.prayer.description')}
               />
