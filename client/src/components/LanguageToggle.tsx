@@ -1,31 +1,28 @@
 import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
-import { Globe } from "lucide-react";
+import { NL, TR } from 'country-flag-icons/react/3x2';
 
 export default function LanguageToggle() {
   const { i18n } = useTranslation();
+  const currentLanguage = i18n.language;
+
+  const toggleLanguage = () => {
+    const newLanguage = currentLanguage === 'nl' ? 'tr' : 'nl';
+    i18n.changeLanguage(newLanguage);
+  };
 
   return (
-    <DropdownMenu>
-      <DropdownMenuTrigger asChild>
-        <Button variant="ghost" size="icon">
-          <Globe className="h-5 w-5" />
-        </Button>
-      </DropdownMenuTrigger>
-      <DropdownMenuContent>
-        <DropdownMenuItem onClick={() => i18n.changeLanguage('nl')}>
-          Nederlands
-        </DropdownMenuItem>
-        <DropdownMenuItem onClick={() => i18n.changeLanguage('tr')}>
-          Türkçe
-        </DropdownMenuItem>
-      </DropdownMenuContent>
-    </DropdownMenu>
+    <Button 
+      variant="ghost" 
+      size="icon" 
+      onClick={toggleLanguage}
+      className="w-10 h-10 p-0"
+    >
+      {currentLanguage === 'nl' ? (
+        <TR className="w-6 h-6" title="Switch to Turkish" />
+      ) : (
+        <NL className="w-6 h-6" title="Switch to Dutch" />
+      )}
+    </Button>
   );
 }
