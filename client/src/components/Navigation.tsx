@@ -67,25 +67,22 @@ export default function Navigation() {
 
             <div className="flex flex-col space-y-6 text-white text-xl">
               <Link href="/" onClick={() => setIsMobileMenuOpen(false)}>
-                Home
+                {t('nav.home')}
               </Link>
-              <Link href="/over-ons" onClick={() => setIsMobileMenuOpen(false)}>
-                Over ons
+              <Link href="/about" onClick={() => setIsMobileMenuOpen(false)}>
+                {t('nav.about')}
               </Link>
-              <Link href="/onderwijs" onClick={() => setIsMobileMenuOpen(false)}>
-                Onderwijs
+              <Link href="/services" onClick={() => setIsMobileMenuOpen(false)}>
+                {t('nav.services')}
               </Link>
-              <Link href="/diensten" onClick={() => setIsMobileMenuOpen(false)}>
-                Diensten
-              </Link>
-              <Link href="/vrouwencommissie" onClick={() => setIsMobileMenuOpen(false)}>
-                Vrouwencommissie
-              </Link>
-              <Link href="/doneren" onClick={() => setIsMobileMenuOpen(false)}>
-                Doneren
+              <Link href="/education" onClick={() => setIsMobileMenuOpen(false)}>
+                {t('nav.education')}
               </Link>
               <Link href="/contact" onClick={() => setIsMobileMenuOpen(false)}>
-                Contact
+                {t('nav.contact')}
+              </Link>
+              <Link href="/donate" onClick={() => setIsMobileMenuOpen(false)}>
+                {t('nav.donate')}
               </Link>
             </div>
 
