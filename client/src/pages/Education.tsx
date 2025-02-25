@@ -16,8 +16,8 @@ export default function Education() {
         <div 
           className="relative h-[600px] bg-cover bg-center" 
           style={{ 
-            backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/Koran-lezen.jpg")',
-            backgroundPosition: 'center'
+            backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/464793684_2364026023938300_452528394103786617_n.jpg")',
+            backgroundPosition: 'center 40%'
           }}
         >
           <div className="absolute inset-0 flex flex-col justify-center max-w-7xl mx-auto px-6">
