@@ -78,6 +78,12 @@
     "coreValues": {
       "title": "Onze kernwaarden:",
       "description": "Bij elke dienst streven we naar zorgvuldigheid, respect en persoonlijke aandacht. Of het nu gaat om begeleiding bij bekering, een ceremonie of praktische hulp bij een uitvaart, onze gemeenschap staat voor u klaar."
+    },
+    "children": {
+      "title": "Onderwijs voor kinderen",
+      "subtitle": "Leren lezen van de Kuran en islamitische waarden ontdekken",
+      "description": "Wij bieden speciale lessen voor kinderen om de Kuran te leren lezen en meer te leren over de Islam. Onze ervaren imam en begeleiders zorgen voor een veilige en inspirerende leeromgeving.",
+      "learnMore": "Meer over onderwijs"
     }
   },
   "education": {

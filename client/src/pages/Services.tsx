@@ -1,8 +1,10 @@
 import { useTranslation } from "react-i18next";
+import { Link } from "wouter";
 import Navigation from "@/components/Navigation";
 import ServiceCard from "@/components/ServiceCard";
 import Footer from "@/components/Footer";
 import { Book, Heart, Church } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 export default function Services() {
   const { t } = useTranslation();
@@ -57,6 +59,40 @@ export default function Services() {
             <p className="text-gray-700 max-w-3xl mx-auto text-sm">
               {t('services.coreValues.description')}
             </p>
+          </div>
+        </section>
+
+        {/* Children's Education Section */}
+        <section className="bg-white py-16 px-6">
+          <div className="max-w-7xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+              <div className="relative aspect-video rounded-lg overflow-hidden">
+                <img
+                  src="/images/464793684_2364026023938300_452528394103786617_n.jpg"
+                  alt="Children with certificates"
+                  className="object-cover w-full h-full"
+                />
+              </div>
+              <div>
+                <h2 className="text-[#CD3A2F] text-3xl mb-4">
+                  {t('services.children.title')}
+                </h2>
+                <h3 className="text-gray-900 text-xl mb-4">
+                  {t('services.children.subtitle')}
+                </h3>
+                <p className="text-gray-700 mb-8">
+                  {t('services.children.description')}
+                </p>
+                <Button
+                  asChild
+                  className="bg-[#2D2B3F] text-white hover:bg-[#3D3B4F]"
+                >
+                  <Link href="/education">
+                    {t('services.children.learnMore')}
+                  </Link>
+                </Button>
+              </div>
+            </div>
           </div>
         </section>
       </main>
