@@ -53,5 +53,22 @@
     "title": "Bizimle İletişime Geçin",
     "description": "Sorularınızı yanıtlamak için her zaman buradayız. İster erkek veya kadın toplantıları, hizmetlerimiz veya diğer etkinlikler hakkında olsun, daha fazla bilgi için bizimle iletişime geçmekten çekinmeyin. Size yardımcı olmaktan mutluluk duyarız.",
     "getInTouch": "İletişime Geç"
+  },
+  "education": {
+    "hero": {
+      "subtitle": "KURAN DERSLERİ VE İSLAMİ EĞİTİM",
+      "title": "Öğrenin ve bilginizi derinleştirin",
+      "description": "Ahmet Yesevi Camii'nde Kuran okumayı öğrenmek ve İslam hakkında daha fazla bilgi edinmek için dersler sunuyoruz. Bu dersler, manevi bilgisini artırmak isteyen herkes için erişilebilirdir.",
+      "registerButton": "Kayıt Ol →"
+    },
+    "details": {
+      "title": "Dersler hakkında detaylar",
+      "paragraph1": "Kuran derslerimiz ve İslami eğitimimiz özellikle çocuklara yönelik olup, imam ve deneyimli eğitmenler tarafından verilmektedir. Bu dersler Cumartesi ve Pazar günleri 10:00-13:00 saatleri arasında yapılmaktadır. Çocuklar programlarına göre her iki güne veya sadece Cumartesi veya Pazar gününe katılabilirler. Ailelerin ihtiyaçlarına uygun esnek bir yaklaşım sunuyoruz.",
+      "paragraph2": "Dersler her yaştan çocuk için uygundur ve Kuran okumayı öğrenmek ve İslami değerleri anlamak için değerli bir temel sağlar.",
+      "paragraph3": "Yetişkinler için de Kuran dersleri alma imkanı vardır. Bu konuda daha fazla bilgi için",
+      "contact": "iletişime",
+      "withUs": "geçin",
+      "registerButton": "Kayıt Ol →"
+    }
   }
 }

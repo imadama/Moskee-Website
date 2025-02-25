@@ -67,7 +67,22 @@
       "Onze gemeenschapszorg en hulpverlening",
       "Voor kinderen bieden we Koranonderwijs en spirituele educatie, met Arabische communicatie op zondag"
     ],
-    "learnMore": "Meer informatie"
+    "learnMore": "Meer informatie",
+    "hero": {
+      "subtitle": "KURANLESSEN EN ISLAMITISCHE EDUCATIE",
+      "title": "Leer en verdiep uw kennis",
+      "description": "Bij Ahmet Yesevi Camii bieden wij lessen om de Kuran te leren lezen en om meer te leren over de islam. Deze lessen zijn toegankelijk voor iedereen die zijn spirituele kennis wil vergroten.",
+      "registerButton": "Inschrijven →"
+    },
+    "details": {
+      "title": "Details over de lessen",
+      "paragraph1": "Onze Kuranlessen en islamitische educatie zijn speciaal gericht op kinderen en worden gegeven door de imam en ervaren begeleiders. Deze lessen vinden plaats op zaterdag en zondag, van 10:00 tot 13:00 uur. Kinderen kunnen deelnemen op beide dagen, of alleen op zaterdag of zondag, afhankelijk van wat het beste past bij hun schema. Wij bieden een flexibele aanpak die aansluit bij de behoeften van gezinnen.",
+      "paragraph2": "De lessen zijn geschikt voor kinderen van alle leeftijden en bieden een waardevolle basis in het leren lezen van de Kuran en het begrijpen van islamitische waarden.",
+      "paragraph3": "Voor volwassenen is het ook mogelijk om Kuranlessen te volgen. Neem voor meer informatie hierover",
+      "contact": "contact",
+      "withUs": "met ons op",
+      "registerButton": "Inschrijven →"
+    }
   },
   "footer": {
     "quickLinks": "Snelle links",
