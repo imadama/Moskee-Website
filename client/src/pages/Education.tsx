@@ -16,7 +16,7 @@ export default function Education() {
         <div 
           className="relative h-[600px] bg-cover bg-center" 
           style={{ 
-            backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/education-hero.jpg")'
+            backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/images/education-hero.jpg)'
           }}
         >
           <div className="absolute inset-0 flex flex-col justify-center max-w-7xl mx-auto px-6">
