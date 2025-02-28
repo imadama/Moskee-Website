@@ -8,9 +8,9 @@
     "donate": "Üye Ol"
   },
   "hero": {
-    "welcome": "Ahmet Yesevi Camii'ne Hoşgeldiniz",
+    "welcome": "Süleyman Çelebi Camii Gorinchem'e Hoşgeldiniz",
     "title": "İbadet, topluluk ve ilham merkezi",
-    "description": "Tiel'in kalbinde yer alan Ahmet Yesevi Camii, Hollanda Diyanet Vakfı ile bağlantılı olarak herkes için güvenilir bir mekandır.",
+    "description": "Gorinchem'in kalbinde yer alan Süleyman Çelebi Camii, Hollanda Diyanet Vakfı ile bağlantılı olarak herkes için güvenilir bir mekandır.",
     "learnMore": "Daha Fazla"
   },
   "about": {
@@ -33,42 +33,64 @@
         "community": "Güçlü ve sıkı bir topluluk inşa etmek"
       },
       "educationButton": "Eğitime katıl"
-    },
-    "team": {
-      "subtitle": "EKİBİMİZLE TANIŞIN",
-      "title": "Süleyman Çelebi Camii'nin arkasındaki insanlar",
-      "description": "Özverili ekibimiz, camiyi yönetmek ve topluluğu desteklemek için çok çalışıyor. Her şeyin sorunsuz ve düzenli yürümesi için hazırlar.",
-      "roles": {
-        "imam": "İmam",
-        "chairman": "Başkan",
-        "viceChairman": "Başkan Yardımcısı",
-        "treasurer": "Sayman",
-        "secretary": "Sekreter",
-        "cashier": "Veznedar",
-        "member": "Üye"
-      }
     }
   },
   "contact": {
-    "title": "Bizimle İletişime Geçin",
-    "description": "Sorularınızı yanıtlamak için her zaman buradayız. İster erkek veya kadın toplantıları, hizmetlerimiz veya diğer etkinlikler hakkında olsun, daha fazla bilgi için bizimle iletişime geçmekten çekinmeyin. Size yardımcı olmaktan mutluluk duyarız.",
-    "getInTouch": "İletişime Geç"
-  },
-  "education": {
-    "hero": {
-      "subtitle": "KURAN DERSLERİ VE İSLAMİ EĞİTİM",
-      "title": "Öğrenin ve bilginizi derinleştirin",
-      "description": "Ahmet Yesevi Camii'nde Kuran okumayı öğrenmek ve İslam hakkında daha fazla bilgi edinmek için dersler sunuyoruz. Bu dersler, manevi bilgisini artırmak isteyen herkes için erişilebilirdir.",
-      "registerButton": "Kayıt Ol →"
+    "title": "İletişim",
+    "email": {
+      "title": "E-posta",
+      "value": "hdvtiel@gmail.com"
     },
-    "details": {
-      "title": "Dersler hakkında detaylar",
-      "paragraph1": "Kuran derslerimiz ve İslami eğitimimiz özellikle çocuklara yönelik olup, imam ve deneyimli eğitmenler tarafından verilmektedir. Bu dersler Cumartesi ve Pazar günleri 10:00-13:00 saatleri arasında yapılmaktadır. Çocuklar programlarına göre her iki güne veya sadece Cumartesi veya Pazar gününe katılabilirler. Ailelerin ihtiyaçlarına uygun esnek bir yaklaşım sunuyoruz.",
-      "paragraph2": "Dersler her yaştan çocuk için uygundur ve Kuran okumayı öğrenmek ve İslami değerleri anlamak için değerli bir temel sağlar.",
-      "paragraph3": "Yetişkinler için de Kuran dersleri alma imkanı vardır. Bu konuda daha fazla bilgi için",
-      "contact": "iletişime",
-      "withUs": "geçin",
-      "registerButton": "Kayıt Ol →"
+    "phone": {
+      "title": "Telefon",
+      "value": "085-0667039"
+    },
+    "address": {
+      "title": "Adres",
+      "value": "Hoefslag 9, 4205 NK Gorinchem"
+    },
+    "form": {
+      "title": "BİZE SORUNUZU GÖNDERİN",
+      "subtitle": "Aşağıdaki iletişim formunu doldurun.",
+      "firstName": "Ad",
+      "lastName": "Soyad",
+      "email": "E-posta",
+      "phone": "Telefon",
+      "message": "Soru veya mesaj",
+      "submit": "Gönder",
+      "success": {
+        "title": "Mesaj gönderildi!",
+        "description": "Mesajınız için teşekkürler. En kısa sürede size geri döneceğiz.",
+        "closeButton": "Kapat"
+      },
+      "validation": {
+        "required": "Bu alan zorunludur",
+        "email": "Geçerli bir e-posta adresi girin",
+        "phone": "Geçerli bir telefon numarası girin"
+      }
+    }
+  },
+  "services": {
+    "title": "Hizmetler",
+    "subtitle": "Size nasıl yardımcı olabiliriz",
+    "description": "Süleyman Çelebi Camii'nde toplumumuzu önemli yaşam anlarında desteklemek için çeşitli hizmetler sunuyoruz. Manevi rehberlikten pratik desteğe kadar, yardım etmek için buradayız.",
+    "education": {
+      "title": "İhtida",
+      "description": "İslam'ı öğrenmek veya Müslüman olmak mı istiyorsunuz? İmamımız ve rehberlerimiz, manevi yolculuğunuzda size kişisel rehberlik ve destek sunuyor."
+    },
+    "prayer": {
+      "title": "Cenaze Hizmetleri",
+      "description": "İslami cenaze hizmetlerinde, ritüeller ve pratik düzenlemeler konusunda tam destek sağlıyoruz. Cenaze hizmetlerimiz, zor zamanlarda ailelere özen ve saygıyla yardımcı oluyor."
+    },
+    "community": {
+      "title": "Nikah",
+      "description": "Süleyman Çelebi Camii, Sünnet'e uygun İslami nikah törenleri düzenliyor. Töreninizi görüşmek ve planlamak için bizimle iletişime geçin."
+    },
+    "children": {
+      "title": "Çocuk Eğitimi",
+      "subtitle": "Kuran okumayı öğrenme ve İslami değerleri keşfetme",
+      "description": "Çocuklar için Kuran okuma ve İslam hakkında daha fazla bilgi edinme dersleri sunuyoruz. Deneyimli imamımız ve eğitmenlerimiz, güvenli ve ilham verici bir öğrenme ortamı sağlıyor.",
+      "learnMore": "Eğitim hakkında daha fazla"
     }
   }
 }
