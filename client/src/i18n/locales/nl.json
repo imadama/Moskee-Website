@@ -152,5 +152,32 @@
     "subtitle": "UW VERTROUWDE PLEK IN TIEL SINDS 1978",
     "description": "Ahmet Yesevi Camii is sinds 1978 een onmisbaar deel uit van de stad. Door de jaren heen is het uitgegroeid tot een belangrijk sociaal-cultureel centrum voor moslims in de regio. Onze visie is het bevorderen van de spirituele groei van onze gemeenschap en het opbouwen van een inclusieve en harmonieuze samenleving.",
     "readMore": "Lees meer"
+  },
+  "virtualTour": {
+    "title": "Virtuele Rondleiding",
+    "description": "Ontdek onze moskee door deze virtuele rondleiding",
+    "areas": {
+      "prayerHall": {
+        "title": "Gebedsruimte",
+        "description": "Onze hoofdgebedsruimte biedt een serene omgeving voor dagelijkse gebeden en vrijdagspreken"
+      },
+      "entrance": {
+        "title": "Entree",
+        "description": "De hoofdingang van onze moskee, waar we iedereen verwelkomen"
+      },
+      "ablution": {
+        "title": "Wudhu Ruimte",
+        "description": "Speciale ruimte voor het verrichten van de rituele wassing (wudhu)"
+      },
+      "education": {
+        "title": "Onderwijsruimte",
+        "description": "Moderne klaslokalen waar we Koran- en islamitische lessen verzorgen"
+      }
+    },
+    "controls": {
+      "previous": "Vorige",
+      "next": "Volgende",
+      "viewAll": "Bekijk alle ruimtes"
+    }
   }
 }

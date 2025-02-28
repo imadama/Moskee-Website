@@ -3,6 +3,7 @@ import { Link } from "wouter";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
+import { VirtualTour } from "@/components/VirtualTour";
 
 export default function About() {
   const { t } = useTranslation();
@@ -114,7 +115,7 @@ export default function About() {
           </section>
 
           {/* Team Section */}
-          <section className="mt-24">
+          <section className="mt-24 mb-24">
             <h2 className="text-gray-500 mb-2">{t('about.team.subtitle')}</h2>
             <div className="text-center mb-12">
               <h3 className="text-[#CD3A2F] text-4xl font-serif mb-4">
@@ -248,6 +249,9 @@ export default function About() {
               </div>
             </div>
           </section>
+
+          {/* Virtual Tour Section */}
+          <VirtualTour />
         </div>
       </main>
 

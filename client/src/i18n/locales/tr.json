@@ -107,5 +107,32 @@
   "footer": {
     "quickLinks": "Hızlı Bağlantılar",
     "contact": "İletişim"
+  },
+  "virtualTour": {
+    "title": "Sanal Tur",
+    "description": "Bu sanal tur ile camimizi keşfedin",
+    "areas": {
+      "prayerHall": {
+        "title": "İbadet Salonu",
+        "description": "Günlük namazlar ve Cuma hutbeleri için huzurlu ana ibadet salonumuz"
+      },
+      "entrance": {
+        "title": "Giriş",
+        "description": "Herkesi karşıladığımız camimizin ana girişi"
+      },
+      "ablution": {
+        "title": "Abdesthane",
+        "description": "Abdest almak için özel hazırlanmış alan"
+      },
+      "education": {
+        "title": "Eğitim Salonu",
+        "description": "Kuran ve İslami dersler verdiğimiz modern sınıflarımız"
+      }
+    },
+    "controls": {
+      "previous": "Önceki",
+      "next": "Sonraki",
+      "viewAll": "Tüm alanları görüntüle"
+    }
   }
 }
