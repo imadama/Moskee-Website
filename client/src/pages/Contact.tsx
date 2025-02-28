@@ -1,4 +1,8 @@
 import { useTranslation } from "react-i18next";
+import { useState } from "react";
+import { useForm } from "react-hook-form";
+import { zodResolver } from "@hookform/resolvers/zod";
+import * as z from "zod";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Mail, Phone, MapPin } from "lucide-react";
@@ -6,9 +10,37 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
+import { SuccessModal } from "@/components/SuccessModal";
+
+const formSchema = z.object({
+  firstName: z.string().min(1, "contact.form.validation.required"),
+  lastName: z.string().min(1, "contact.form.validation.required"),
+  email: z.string().email("contact.form.validation.email"),
+  phone: z.string().min(1, "contact.form.validation.required"),
+  message: z.string().min(1, "contact.form.validation.required"),
+});
+
+type FormData = z.infer<typeof formSchema>;
 
 export default function Contact() {
   const { t } = useTranslation();
+  const [isSuccessModalOpen, setIsSuccessModalOpen] = useState(false);
+
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+    reset
+  } = useForm<FormData>({
+    resolver: zodResolver(formSchema)
+  });
+
+  const onSubmit = async (data: FormData) => {
+    // Here you would typically send the data to your backend
+    console.log("Form submitted:", data);
+    setIsSuccessModalOpen(true);
+    reset(); // Reset form after successful submission
+  };
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -86,14 +118,20 @@ export default function Contact() {
             </p>
           </div>
 
-          <form className="space-y-6">
+          <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {/* First Name */}
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
                   {t('contact.form.firstName')} <span className="text-red-500">*</span>
                 </label>
-                <Input required className="w-full" />
+                <Input 
+                  {...register('firstName')}
+                  className={`w-full ${errors.firstName ? 'border-red-500' : ''}`}
+                />
+                {errors.firstName && (
+                  <p className="mt-1 text-sm text-red-500">{t(errors.firstName.message!)}</p>
+                )}
               </div>
 
               {/* Last Name */}
@@ -101,7 +139,13 @@ export default function Contact() {
                 <label className="block text-sm font-medium text-gray-700 mb-2">
                   {t('contact.form.lastName')} <span className="text-red-500">*</span>
                 </label>
-                <Input required className="w-full" />
+                <Input 
+                  {...register('lastName')}
+                  className={`w-full ${errors.lastName ? 'border-red-500' : ''}`}
+                />
+                {errors.lastName && (
+                  <p className="mt-1 text-sm text-red-500">{t(errors.lastName.message!)}</p>
+                )}
               </div>
             </div>
 
@@ -111,7 +155,14 @@ export default function Contact() {
                 <label className="block text-sm font-medium text-gray-700 mb-2">
                   {t('contact.form.email')} <span className="text-red-500">*</span>
                 </label>
-                <Input type="email" required className="w-full" />
+                <Input 
+                  type="email" 
+                  {...register('email')}
+                  className={`w-full ${errors.email ? 'border-red-500' : ''}`}
+                />
+                {errors.email && (
+                  <p className="mt-1 text-sm text-red-500">{t(errors.email.message!)}</p>
+                )}
               </div>
 
               {/* Phone */}
@@ -123,8 +174,16 @@ export default function Contact() {
                   <span className="inline-flex items-center px-3 border border-r-0 border-gray-300 bg-gray-50 text-gray-500 text-sm rounded-l-md">
                     🇳🇱 +31
                   </span>
-                  <Input type="tel" required className="rounded-l-none flex-1" placeholder="06 12345678" />
+                  <Input 
+                    type="tel" 
+                    {...register('phone')}
+                    className={`rounded-l-none flex-1 ${errors.phone ? 'border-red-500' : ''}`} 
+                    placeholder="06 12345678" 
+                  />
                 </div>
+                {errors.phone && (
+                  <p className="mt-1 text-sm text-red-500">{t(errors.phone.message!)}</p>
+                )}
               </div>
             </div>
 
@@ -133,7 +192,13 @@ export default function Contact() {
               <label className="block text-sm font-medium text-gray-700 mb-2">
                 {t('contact.form.message')} <span className="text-red-500">*</span>
               </label>
-              <Textarea required className="w-full min-h-[150px]" />
+              <Textarea 
+                {...register('message')}
+                className={`w-full min-h-[150px] ${errors.message ? 'border-red-500' : ''}`}
+              />
+              {errors.message && (
+                <p className="mt-1 text-sm text-red-500">{t(errors.message.message!)}</p>
+              )}
             </div>
 
             {/* Submit Button */}
@@ -150,6 +215,10 @@ export default function Contact() {
       </section>
 
       <Footer />
+      <SuccessModal 
+        isOpen={isSuccessModalOpen} 
+        onClose={() => setIsSuccessModalOpen(false)} 
+      />
     </div>
   );
 }

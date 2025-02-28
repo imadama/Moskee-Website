@@ -71,7 +71,17 @@
       "email": "E-mail",
       "phone": "Telefoonnummer",
       "message": "Vraag of bericht",
-      "submit": "Verzend"
+      "submit": "Verzend",
+      "success": {
+        "title": "Bericht verzonden!",
+        "description": "Bedankt voor uw bericht. We nemen zo snel mogelijk contact met u op.",
+        "closeButton": "Sluiten"
+      },
+      "validation": {
+        "required": "Dit veld is verplicht",
+        "email": "Voer een geldig e-mailadres in",
+        "phone": "Voer een geldig telefoonnummer in"
+      }
     }
   },
   "support": {
