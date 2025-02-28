@@ -11,25 +11,3 @@
     @apply font-sans antialiased bg-background text-foreground;
   }
 }
-
-/* Hide JotForm footer */
-.formFooter,
-.formFooter.f6.branding21,
-.formFooter-wrapper.formFooter-leftSide,
-.formFooter-wrapper.formFooter-rightSide,
-div[class*="formFooter"],
-div[class*="formFooter-wrapper"],
-.formFooter-leftSide,
-.formFooter-rightSide {
-  display: none !important;
-  opacity: 0 !important;
-  height: 0 !important;
-  min-height: 0 !important;
-  padding: 0 !important;
-  margin: 0 !important;
-  overflow: hidden !important;
-  visibility: hidden !important;
-  pointer-events: none !important;
-  position: absolute !important;
-  clip: rect(0 0 0 0) !important;
-}
