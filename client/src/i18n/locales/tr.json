@@ -41,6 +41,31 @@
       "educationButton": "Eğitime katıl"
     }
   },
+  "education": {
+    "title": "Herkes için destek ve eğitim",
+    "description": "HDV'mizde toplumumuz için çeşitli hizmetler ve destek imkanları sunuyoruz:",
+    "bulletPoints": [
+      "İhtida rehberliği, İslami nikah ve cenaze hizmetleri sağlıyoruz",
+      "Toplum hizmetleri ve sosyal yardımlaşma",
+      "Çocuklar için Kuran eğitimi ve manevi eğitim, Pazar günleri Arapça iletişim dersleri"
+    ],
+    "learnMore": "Daha fazla bilgi",
+    "hero": {
+      "subtitle": "KURAN DERSLERİ VE İSLAMİ EĞİTİM",
+      "title": "Öğrenin ve bilginizi derinleştirin",
+      "description": "Süleyman Çelebi Camii'nde Kuran okumayı öğrenmek ve İslam hakkında daha fazla bilgi edinmek için dersler sunuyoruz. Bu dersler, manevi bilgisini artırmak isteyen herkes için erişilebilirdir.",
+      "registerButton": "Kayıt Ol →"
+    },
+    "details": {
+      "title": "Dersler hakkında detaylar",
+      "paragraph1": "Kuran derslerimiz ve İslami eğitimimiz özellikle çocuklara yönelik olup, imam ve deneyimli eğitmenler tarafından verilmektedir. Bu dersler Cumartesi ve Pazar günleri 10:00-13:00 saatleri arasında yapılmaktadır. Çocuklar programlarına göre her iki güne veya sadece Cumartesi veya Pazar gününe katılabilirler. Ailelerin ihtiyaçlarına uygun esnek bir yaklaşım sunuyoruz.",
+      "paragraph2": "Dersler her yaştan çocuk için uygundur ve Kuran okumayı öğrenmek ve İslami değerleri anlamak için değerli bir temel sağlar.",
+      "paragraph3": "Yetişkinler için de Kuran dersleri alma imkanı vardır. Bu konuda daha fazla bilgi için",
+      "contact": "iletişime",
+      "withUs": "geçin",
+      "registerButton": "Kayıt Ol →"
+    }
+  },
   "support": {
     "title": "Üye olun ve camimizi destekleyin",
     "description": "Topluluğumuz HDV Gorinchem'in temelidir. Üye olun ve hedeflerimize ulaşmamıza yardımcı olun. Desteğinizle dini ve toplumsal hizmetlerimizi sürdürebiliriz.",
