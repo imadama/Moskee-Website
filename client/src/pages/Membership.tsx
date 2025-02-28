@@ -11,8 +11,19 @@ export default function Membership() {
     const style = document.createElement("style");
     style.textContent = `
       .formFooter,
-      .formFooter-wrapper {
+      .formFooter-wrapper,
+      .formFooter.f6.branding21,
+      div[class*="formFooter-wrapper"],
+      .formFooter-leftSide,
+      .formFooter-rightSide {
         display: none !important;
+        opacity: 0 !important;
+        height: 0 !important;
+        min-height: 0 !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        overflow: hidden !important;
+        visibility: hidden !important;
       }
     `;
     document.head.appendChild(style);
