@@ -217,7 +217,7 @@ export default function Contact() {
       {/* Map Section */}
       <section className="h-[400px] w-full">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2454.6858831154584!2d5.288299776687481!3d51.830499189693705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c631c8885d0b99%3A0x5a8d2c9900e849a0!2sGorinchem%20HDV%20Moskee!5e0!3m2!1snl!2snl!4v1709126344567!5m2!1snl!2snl"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2454.8845831154584!2d4.973854015758896!3d51.82681997969161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c631c8885d0b99%3A0x5a8d2c9900e849a0!2sHoefslag%209%2C%204205%20NK%20Gorinchem!5e0!3m2!1snl!2snl!4v1709126344567!5m2!1snl!2snl"
           width="100%"
           height="100%"
           style={{ border: 0 }}
