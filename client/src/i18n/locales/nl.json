@@ -150,15 +150,5 @@
     "subtitle": "UW VERTROUWDE PLEK IN TIEL SINDS 1978",
     "description": "Ahmet Yesevi Camii is sinds 1978 een onmisbaar deel uit van de stad. Door de jaren heen is het uitgegroeid tot een belangrijk sociaal-cultureel centrum voor moslims in de regio. Onze visie is het bevorderen van de spirituele groei van onze gemeenschap en het opbouwen van een inclusieve en harmonieuze samenleving.",
     "readMore": "Lees meer"
-  },
-  "location": {
-    "title": "Vind onze moskee",
-    "description": "Gebruik de kaart hieronder om onze moskee te vinden. Klik op de 'Locatie delen' knop om te zien hoe ver u van de moskee bent.",
-    "mosqueAddress": "Koornmarkt 20, 4001 KW Tiel",
-    "yourLocation": "Uw locatie",
-    "distance": "Afstand tot de moskee: {{distance}} km",
-    "error": {
-      "geolocation": "Kon uw locatie niet bepalen. Controleer of u locatietoegang heeft ingeschakeld."
-    }
   }
 }
