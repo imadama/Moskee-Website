@@ -23,19 +23,15 @@ export default function Navigation() {
           <Link href="/education">{t('nav.education')}</Link>
           <Link href="/services">{t('nav.services')}</Link>
           <Link href="/contact">{t('nav.contact')}</Link>
-          <a 
-            href="https://betaalverzoek.rabobank.nl/betaalverzoek/?id=33XkU1UVTwKuCEUf5wy6JA" 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            className="text-[#CD3A2F] font-medium hover:text-[#9C2A22]"
-          >
-            Doneren
-          </a>
         </div>
 
         <div className="hidden md:flex items-center gap-4">
           <LanguageToggle />
-          <Button className="bg-primary text-white">{t('nav.donate')}</Button>
+          <Link href="/membership">
+            <Button className="bg-[#CD3A2F] text-white hover:bg-[#9C2A22]">
+              {t('nav.membership')}
+            </Button>
+          </Link>
         </div>
 
         {/* Mobile Menu Button */}
@@ -81,15 +77,13 @@ export default function Navigation() {
               <Link href="/contact" onClick={() => setIsMobileMenuOpen(false)}>
                 {t('nav.contact')}
               </Link>
-              <a 
-                href="https://betaalverzoek.rabobank.nl/betaalverzoek/?id=33XkU1UVTwKuCEUf5wy6JA" 
-                target="_blank" 
-                rel="noopener noreferrer" 
+              <Link 
+                href="/membership" 
                 onClick={() => setIsMobileMenuOpen(false)}
-                className="text-gray-900 hover:text-gray-600"
+                className="text-[#CD3A2F] font-medium hover:text-[#9C2A22]"
               >
-                Doneren
-              </a>
+                {t('nav.membership')}
+              </Link>
             </div>
 
             <div className="mt-auto">
