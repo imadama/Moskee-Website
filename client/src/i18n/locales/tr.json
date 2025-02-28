@@ -118,5 +118,14 @@
   "footer": {
     "quickLinks": "Hızlı Bağlantılar",
     "contact": "İletişim"
+  },
+  "membership": {
+    "title": "Üye Ol",
+    "subtitle": "Otomatik Ödeme Talimatı",
+    "description": "Dini ve toplumsal hizmetlerimize katkıda bulunmak ve topluluğumuzu desteklemek için Süleyman Çelebi Camii Gorinchem'e üye olun.",
+    "form": {
+      "title": "ÜYE OL",
+      "description": "Camimize üye olmak için aşağıdaki formu doldurun."
+    }
   }
 }

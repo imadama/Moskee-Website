@@ -8,6 +8,7 @@ import Services from "@/pages/Services";
 import About from "@/pages/About";
 import Education from "@/pages/Education";
 import Contact from "@/pages/Contact";
+import Membership from "@/pages/Membership";
 import "./i18n/i18n";
 
 function Router() {
@@ -18,6 +19,7 @@ function Router() {
       <Route path="/services" component={Services} />
       <Route path="/education" component={Education} />
       <Route path="/contact" component={Contact} />
+      <Route path="/membership" component={Membership} />
       <Route component={NotFound} />
     </Switch>
   );

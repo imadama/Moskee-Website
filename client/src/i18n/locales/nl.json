@@ -179,5 +179,14 @@
       "next": "Volgende",
       "viewAll": "Bekijk alle ruimtes"
     }
+  },
+  "membership": {
+    "title": "Lid worden",
+    "subtitle": "Doorlopende machtiging",
+    "description": "Word lid van Süleyman Çelebi Camii Gorinchem om onze gemeenschap te steunen en bij te dragen aan onze religieuze en maatschappelijke diensten.",
+    "form": {
+      "title": "WORD LID",
+      "description": "Vul het onderstaande formulier in om lid te worden van onze moskee."
+    }
   }
 }
