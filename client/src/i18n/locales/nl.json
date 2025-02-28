@@ -51,6 +51,8 @@
   },
   "contact": {
     "title": "Contact",
+    "description": "Heeft u vragen over onze diensten, activiteiten of wilt u meer informatie? Wij staan altijd voor u klaar om uw vragen te beantwoorden.",
+    "getInTouch": "Neem contact op",
     "email": {
       "title": "E-mail",
       "value": "hdvtiel@gmail.com"
