@@ -13,6 +13,12 @@
     "description": "Gorinchem'in kalbinde yer alan Süleyman Çelebi Camii, Hollanda Diyanet Vakfı ile bağlantılı olarak herkes için güvenilir bir mekandır.",
     "learnMore": "Daha Fazla"
   },
+  "history": {
+    "title": "Zengin tarihli bir cami",
+    "subtitle": "1979'DAN BERİ GORİNCHEM'DEKİ GÜVENİLİR YERİNİZ",
+    "description": "Süleyman Çelebi Camii, 1979'dan beri şehrin vazgeçilmez bir parçasıdır. Yıllar içinde bölgedeki Müslümanlar için önemli bir sosyo-kültürel merkez haline gelmiştir. Vizyonumuz, topluluğumuzun manevi gelişimini teşvik etmek ve kapsayıcı ve uyumlu bir toplum inşa etmektir.",
+    "readMore": "Daha Fazla"
+  },
   "about": {
     "title": "Hakkımızda",
     "whoWeAre": {
@@ -82,57 +88,10 @@
     "address": {
       "title": "Adres",
       "value": "Hoefslag 9, 4205 NK Gorinchem"
-    },
-    "form": {
-      "title": "BİZE SORUNUZU GÖNDERİN",
-      "subtitle": "Aşağıdaki iletişim formunu doldurun.",
-      "firstName": "Ad",
-      "lastName": "Soyad",
-      "email": "E-posta",
-      "phone": "Telefon",
-      "message": "Soru veya mesaj",
-      "submit": "Gönder",
-      "success": {
-        "title": "Mesaj gönderildi!",
-        "description": "Mesajınız için teşekkürler. En kısa sürede size geri döneceğiz.",
-        "closeButton": "Kapat"
-      },
-      "validation": {
-        "required": "Bu alan zorunludur",
-        "email": "Geçerli bir e-posta adresi girin",
-        "phone": "Geçerli bir telefon numarası girin"
-      }
     }
   },
   "footer": {
     "quickLinks": "Hızlı Bağlantılar",
     "contact": "İletişim"
-  },
-  "virtualTour": {
-    "title": "Sanal Tur",
-    "description": "Bu sanal tur ile camimizi keşfedin",
-    "areas": {
-      "prayerHall": {
-        "title": "İbadet Salonu",
-        "description": "Günlük namazlar ve Cuma hutbeleri için huzurlu ana ibadet salonumuz"
-      },
-      "entrance": {
-        "title": "Giriş",
-        "description": "Herkesi karşıladığımız camimizin ana girişi"
-      },
-      "ablution": {
-        "title": "Abdesthane",
-        "description": "Abdest almak için özel hazırlanmış alan"
-      },
-      "education": {
-        "title": "Eğitim Salonu",
-        "description": "Kuran ve İslami dersler verdiğimiz modern sınıflarımız"
-      }
-    },
-    "controls": {
-      "previous": "Önceki",
-      "next": "Sonraki",
-      "viewAll": "Tüm alanları görüntüle"
-    }
   }
 }
