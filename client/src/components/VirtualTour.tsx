@@ -57,21 +57,23 @@ export function VirtualTour() {
             {tourLocations.map((location) => (
               <CarouselItem key={location.id} className="md:basis-1/1">
                 <Card className="overflow-hidden">
-                  <div className="relative aspect-video">
-                    <img
-                      src={location.imagePath}
-                      alt={t(`virtualTour.areas.${location.id}.title`)}
-                      className="object-cover w-full h-full"
-                    />
-                    <div className="absolute bottom-0 left-0 right-0 bg-black/60 text-white p-6">
-                      <h3 className="text-xl font-medium mb-2">
-                        {t(`virtualTour.areas.${location.id}.title`)}
-                      </h3>
-                      <p className="text-sm text-gray-200">
-                        {t(`virtualTour.areas.${location.id}.description`)}
-                      </p>
+                  <CardContent className="p-0">
+                    <div className="relative aspect-video">
+                      <img
+                        src={location.imagePath}
+                        alt={t(`virtualTour.areas.${location.id}.title`)}
+                        className="object-cover w-full h-full"
+                      />
+                      <div className="absolute bottom-0 left-0 right-0 bg-black/60 text-white p-6">
+                        <h3 className="text-xl font-medium mb-2">
+                          {t(`virtualTour.areas.${location.id}.title`)}
+                        </h3>
+                        <p className="text-sm text-gray-200">
+                          {t(`virtualTour.areas.${location.id}.description`)}
+                        </p>
+                      </div>
                     </div>
-                  </div>
+                  </CardContent>
                 </Card>
               </CarouselItem>
             ))}
