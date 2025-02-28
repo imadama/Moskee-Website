@@ -50,9 +50,19 @@
     }
   },
   "contact": {
-    "title": "Neem gerust contact met ons op",
-    "description": "Wij staan altijd klaar om uw vragen te beantwoorden. Of het nu gaat om bijeenkomsten voor mannen of vrouwen, onze diensten, of andere activiteiten, neem gerust contact met ons op voor meer informatie. Wij helpen u graag verder.",
-    "getInTouch": "Contact opnemen"
+    "title": "Contact",
+    "email": {
+      "title": "E-mail",
+      "value": "hdvtiel@gmail.com"
+    },
+    "phone": {
+      "title": "Telefoonnummer",
+      "value": "085-0667039"
+    },
+    "address": {
+      "title": "Adres",
+      "value": "Koornmarkt 20, 4001 KW Tiel"
+    }
   },
   "support": {
     "title": "Word lid en steun onze moskee",
