@@ -62,6 +62,16 @@
     "address": {
       "title": "Adres",
       "value": "Koornmarkt 20, 4001 KW Tiel"
+    },
+    "form": {
+      "title": "STUUR ONS JE VRAAG",
+      "subtitle": "Vul hier onder het contactformulier in.",
+      "firstName": "Voornaam",
+      "lastName": "Achternaam",
+      "email": "E-mail",
+      "phone": "Telefoonnummer",
+      "message": "Vraag of bericht",
+      "submit": "Verzend"
     }
   },
   "support": {
