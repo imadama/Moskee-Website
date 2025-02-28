@@ -96,32 +96,28 @@ export default function Services() {
           </div>
         </section>
 
-        {/* Contact Section */}
-        <section 
-          className="bg-[#2D2B3F] text-white py-16 px-6" 
+         {/* Contact Section */}
+         <section 
+          className="relative py-20 bg-cover bg-center" 
           style={{ 
-            backgroundImage: 'linear-gradient(rgba(45, 43, 63, 0.9), rgba(45, 43, 63, 0.9)), url(/images/contact-background.jpg)',
-            backgroundSize: 'cover',
+            backgroundImage: 'url("/images/contact-background.jpg")',
             backgroundPosition: 'center'
           }}
         >
-          <div className="max-w-7xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-serif mb-4">
+          <div className="absolute inset-0 bg-black/50" />
+          <div className="relative max-w-7xl mx-auto px-6 text-center text-white">
+            <h2 className="text-4xl md:text-5xl font-serif mb-6">
               {t('contact.title')}
             </h2>
-            <p className="text-lg mb-8 max-w-2xl mx-auto">
+            <p className="text-lg mb-8 max-w-3xl mx-auto">
               {t('contact.description')}
             </p>
-            <Button 
-              asChild
-              className="bg-white text-[#2D2B3F] hover:bg-gray-100"
-            >
-              <Link href="/contact">
-                {t('contact.getInTouch')}
-              </Link>
+            <Button className="bg-[#2D2B3F] text-white hover:bg-[#3D3B4F] text-lg px-8 py-6">
+              {t('contact.getInTouch')}
             </Button>
           </div>
         </section>
+
       </main>
 
       <Footer />
