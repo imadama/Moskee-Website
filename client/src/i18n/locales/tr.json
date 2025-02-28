@@ -35,6 +35,38 @@
       "educationButton": "Eğitime katıl"
     }
   },
+  "support": {
+    "title": "Üye olun ve camimizi destekleyin",
+    "description": "Topluluğumuz HDV Gorinchem'in temelidir. Üye olun ve hedeflerimize ulaşmamıza yardımcı olun. Desteğinizle dini ve toplumsal hizmetlerimizi sürdürebiliriz.",
+    "joinNow": "Hemen üye ol"
+  },
+  "services": {
+    "title": "Hizmetler",
+    "subtitle": "Size nasıl yardımcı olabiliriz",
+    "description": "Süleyman Çelebi Camii'nde toplumumuzu önemli yaşam anlarında desteklemek için çeşitli hizmetler sunuyoruz. Manevi rehberlikten pratik desteğe kadar, yardım etmek için buradayız.",
+    "education": {
+      "title": "İhtida",
+      "description": "İslam'ı öğrenmek veya Müslüman olmak mı istiyorsunuz? İmamımız ve rehberlerimiz, manevi yolculuğunuzda size kişisel rehberlik ve destek sunuyor."
+    },
+    "prayer": {
+      "title": "Cenaze Hizmetleri",
+      "description": "İslami cenaze hizmetlerinde, ritüeller ve pratik düzenlemeler konusunda tam destek sağlıyoruz. Cenaze hizmetlerimiz, zor zamanlarda ailelere özen ve saygıyla yardımcı oluyor."
+    },
+    "community": {
+      "title": "Nikah",
+      "description": "Süleyman Çelebi Camii, Sünnet'e uygun İslami nikah törenleri düzenliyor. Töreninizi görüşmek ve planlamak için bizimle iletişime geçin."
+    },
+    "coreValues": {
+      "title": "Temel değerlerimiz:",
+      "description": "Her hizmette özen, saygı ve kişisel ilgiyi hedefliyoruz. İster ihtida rehberliği, bir tören veya cenaze konusunda pratik yardım olsun, topluluğumuz sizin için hazırdır."
+    },
+    "children": {
+      "title": "Çocuk Eğitimi",
+      "subtitle": "Kuran okumayı öğrenme ve İslami değerleri keşfetme",
+      "description": "Çocuklar için Kuran okuma ve İslam hakkında daha fazla bilgi edinme dersleri sunuyoruz. Deneyimli imamımız ve eğitmenlerimiz, güvenli ve ilham verici bir öğrenme ortamı sağlıyor.",
+      "learnMore": "Eğitim hakkında daha fazla"
+    }
+  },
   "contact": {
     "title": "İletişim",
     "email": {
@@ -70,27 +102,8 @@
       }
     }
   },
-  "services": {
-    "title": "Hizmetler",
-    "subtitle": "Size nasıl yardımcı olabiliriz",
-    "description": "Süleyman Çelebi Camii'nde toplumumuzu önemli yaşam anlarında desteklemek için çeşitli hizmetler sunuyoruz. Manevi rehberlikten pratik desteğe kadar, yardım etmek için buradayız.",
-    "education": {
-      "title": "İhtida",
-      "description": "İslam'ı öğrenmek veya Müslüman olmak mı istiyorsunuz? İmamımız ve rehberlerimiz, manevi yolculuğunuzda size kişisel rehberlik ve destek sunuyor."
-    },
-    "prayer": {
-      "title": "Cenaze Hizmetleri",
-      "description": "İslami cenaze hizmetlerinde, ritüeller ve pratik düzenlemeler konusunda tam destek sağlıyoruz. Cenaze hizmetlerimiz, zor zamanlarda ailelere özen ve saygıyla yardımcı oluyor."
-    },
-    "community": {
-      "title": "Nikah",
-      "description": "Süleyman Çelebi Camii, Sünnet'e uygun İslami nikah törenleri düzenliyor. Töreninizi görüşmek ve planlamak için bizimle iletişime geçin."
-    },
-    "children": {
-      "title": "Çocuk Eğitimi",
-      "subtitle": "Kuran okumayı öğrenme ve İslami değerleri keşfetme",
-      "description": "Çocuklar için Kuran okuma ve İslam hakkında daha fazla bilgi edinme dersleri sunuyoruz. Deneyimli imamımız ve eğitmenlerimiz, güvenli ve ilham verici bir öğrenme ortamı sağlıyor.",
-      "learnMore": "Eğitim hakkında daha fazla"
-    }
+  "footer": {
+    "quickLinks": "Hızlı Bağlantılar",
+    "contact": "İletişim"
   }
 }
