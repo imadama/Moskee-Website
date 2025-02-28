@@ -47,9 +47,9 @@ export default function Contact() {
       <Navigation />
 
       {/* Hero Section */}
-      <div 
-        className="relative h-[300px] bg-cover bg-center" 
-        style={{ 
+      <div
+        className="relative h-[300px] bg-cover bg-center"
+        style={{
           backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/images/contact-background.jpg)'
         }}
       >
@@ -125,7 +125,7 @@ export default function Contact() {
                 <label className="block text-sm font-medium text-gray-700 mb-2">
                   {t('contact.form.firstName')} <span className="text-red-500">*</span>
                 </label>
-                <Input 
+                <Input
                   {...register('firstName')}
                   className={`w-full ${errors.firstName ? 'border-red-500' : ''}`}
                 />
@@ -139,7 +139,7 @@ export default function Contact() {
                 <label className="block text-sm font-medium text-gray-700 mb-2">
                   {t('contact.form.lastName')} <span className="text-red-500">*</span>
                 </label>
-                <Input 
+                <Input
                   {...register('lastName')}
                   className={`w-full ${errors.lastName ? 'border-red-500' : ''}`}
                 />
@@ -155,8 +155,8 @@ export default function Contact() {
                 <label className="block text-sm font-medium text-gray-700 mb-2">
                   {t('contact.form.email')} <span className="text-red-500">*</span>
                 </label>
-                <Input 
-                  type="email" 
+                <Input
+                  type="email"
                   {...register('email')}
                   className={`w-full ${errors.email ? 'border-red-500' : ''}`}
                 />
@@ -174,11 +174,11 @@ export default function Contact() {
                   <span className="inline-flex items-center px-3 border border-r-0 border-gray-300 bg-gray-50 text-gray-500 text-sm rounded-l-md">
                     🇳🇱 +31
                   </span>
-                  <Input 
-                    type="tel" 
+                  <Input
+                    type="tel"
                     {...register('phone')}
-                    className={`rounded-l-none flex-1 ${errors.phone ? 'border-red-500' : ''}`} 
-                    placeholder="06 12345678" 
+                    className={`rounded-l-none flex-1 ${errors.phone ? 'border-red-500' : ''}`}
+                    placeholder="06 12345678"
                   />
                 </div>
                 {errors.phone && (
@@ -192,7 +192,7 @@ export default function Contact() {
               <label className="block text-sm font-medium text-gray-700 mb-2">
                 {t('contact.form.message')} <span className="text-red-500">*</span>
               </label>
-              <Textarea 
+              <Textarea
                 {...register('message')}
                 className={`w-full min-h-[150px] ${errors.message ? 'border-red-500' : ''}`}
               />
@@ -203,7 +203,7 @@ export default function Contact() {
 
             {/* Submit Button */}
             <div className="text-center">
-              <Button 
+              <Button
                 type="submit"
                 className="bg-[#2D2B3F] text-white px-8 py-2 rounded hover:bg-[#3D3B4F]"
               >
@@ -214,10 +214,23 @@ export default function Contact() {
         </div>
       </section>
 
+      {/* Map Section */}
+      <section className="h-[400px] w-full">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2454.6858831154584!2d5.288299776687481!3d51.830499189693705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c631c8885d0b99%3A0x5a8d2c9900e849a0!2sGorinchem%20HDV%20Moskee!5e0!3m2!1snl!2snl!4v1709126344567!5m2!1snl!2snl"
+          width="100%"
+          height="100%"
+          style={{ border: 0 }}
+          allowFullScreen
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        />
+      </section>
+
       <Footer />
-      <SuccessModal 
-        isOpen={isSuccessModalOpen} 
-        onClose={() => setIsSuccessModalOpen(false)} 
+      <SuccessModal
+        isOpen={isSuccessModalOpen}
+        onClose={() => setIsSuccessModalOpen(false)}
       />
     </div>
   );
