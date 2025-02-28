@@ -69,6 +69,8 @@
   },
   "contact": {
     "title": "İletişim",
+    "description": "Sorularınızı yanıtlamak için her zaman buradayız. İster erkek veya kadın toplantıları, hizmetlerimiz veya diğer etkinlikler hakkında olsun, daha fazla bilgi için bizimle iletişime geçmekten çekinmeyin.",
+    "getInTouch": "İletişime Geç",
     "email": {
       "title": "E-posta",
       "value": "hdvtiel@gmail.com"
