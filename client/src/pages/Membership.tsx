@@ -7,18 +7,35 @@ export default function Membership() {
   const { t } = useTranslation();
 
   useEffect(() => {
+    // Create style element to hide JotForm footer
+    const style = document.createElement("style");
+    style.textContent = `
+      .formFooter,
+      .formFooter-wrapper {
+        display: none !important;
+      }
+    `;
+    document.head.appendChild(style);
+
     // Create script element for JotForm
     const script = document.createElement("script");
     script.src = "https://form.jotform.com/jsform/241355412255349";
     script.async = true;
     script.type = "text/javascript";
-    
+
     // Add script to document
     document.getElementById("jotform-container")?.appendChild(script);
 
     // Cleanup
     return () => {
-      document.getElementById("jotform-container")?.removeChild(script);
+      document.head.removeChild(style);
+      const container = document.getElementById("jotform-container");
+      if (container) {
+        const scriptElement = container.querySelector("script");
+        if (scriptElement) {
+          container.removeChild(scriptElement);
+        }
+      }
     };
   }, []);
 
