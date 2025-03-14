@@ -27,14 +27,20 @@ export default function Navigation() {
           <Link href="/education">{t("nav.education")}</Link>
           <Link href="/services">{t("nav.services")}</Link>
           <Link href="/contact">{t("nav.contact")}</Link>
-          <Link href="https://betaalverzoek.rabobank.nl/betaalverzoek/?id=33XkU1UVTwKuCEUf5wy6JA">
-            {" "}
-            {t("nav.donate")}
-          </Link>
         </div>
 
         <div className="hidden md:flex items-center gap-4">
           <LanguageToggle />
+          <a
+            href="https://betaalverzoek.rabobank.nl/betaalverzoek/?id=33XkU1UVTwKuCEUf5wy6JA"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block"
+          >
+            <Button variant="outline" className="border-[#CD3A2F] text-[#CD3A2F] hover:bg-[#CD3A2F] hover:text-white">
+              {t("nav.donate")}
+            </Button>
+          </a>
           <Link href="/lid-worden">
             <Button className="bg-[#CD3A2F] text-white hover:bg-[#9C2A22]">
               {t("nav.membership")}
@@ -93,20 +99,21 @@ export default function Navigation() {
                 {t("nav.contact")}
               </Link>
               <Link
-                href="https://betaalverzoek.rabobank.nl/betaalverzoek/?id=33XkU1UVTwKuCEUf5wy6JA"
-                target="_blank"
-                onClick={() => setIsMobileMenuOpen(false)}
-                className="text-[#CD3A2F] font-medium hover:text-[#9C2A22]"
-              >
-                {t("nav.donate")}
-              </Link>
-              <Link
                 href="/lid-worden"
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="text-[#CD3A2F] font-medium hover:text-[#9C2A22]"
               >
                 {t("nav.membership")}
               </Link>
+              <a
+                href="https://betaalverzoek.rabobank.nl/betaalverzoek/?id=33XkU1UVTwKuCEUf5wy6JA"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="text-[#CD3A2F] font-medium hover:text-[#9C2A22]"
+              >
+                {t("nav.donate")}
+              </a>
             </div>
 
             <div className="mt-auto">
