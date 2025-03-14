@@ -27,6 +27,10 @@ export default function Navigation() {
           <Link href="/education">{t("nav.education")}</Link>
           <Link href="/services">{t("nav.services")}</Link>
           <Link href="/contact">{t("nav.contact")}</Link>
+          <Link href="https://betaalverzoek.rabobank.nl/betaalverzoek/?id=33XkU1UVTwKuCEUf5wy6JA">
+            {" "}
+            {t("nav.donate")}
+          </Link>
         </div>
 
         <div className="hidden md:flex items-center gap-4">
@@ -87,6 +91,14 @@ export default function Navigation() {
               </Link>
               <Link href="/contact" onClick={() => setIsMobileMenuOpen(false)}>
                 {t("nav.contact")}
+              </Link>
+              <Link
+                href="https://betaalverzoek.rabobank.nl/betaalverzoek/?id=33XkU1UVTwKuCEUf5wy6JA"
+                target="_blank"
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="text-[#CD3A2F] font-medium hover:text-[#9C2A22]"
+              >
+                {t("nav.donate")}
               </Link>
               <Link
                 href="/lid-worden"
