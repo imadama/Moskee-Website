@@ -1,7 +1,10 @@
 import { Link } from "wouter";
 import { SiFacebook, SiInstagram } from "react-icons/si";
+import { useTranslation } from "react-i18next";
 
 export default function Footer() {
+  const { t } = useTranslation();
+
   return (
     <footer className="bg-white py-12">
       <div className="max-w-7xl mx-auto px-6">
@@ -36,22 +39,22 @@ export default function Footer() {
           {/* Quick Links */}
           <div>
             <h3 className="text-[#CD3A2F] font-medium text-lg mb-4">
-              Snelle links
+              {t('footer.quickLinks')}
             </h3>
             <ul className="space-y-3 text-gray-600">
               <li>
                 <Link href="/about" className="hover:text-[#CD3A2F]">
-                  Over ons
+                  {t('nav.about')}
                 </Link>
               </li>
               <li>
                 <Link href="/services" className="hover:text-[#CD3A2F]">
-                  Diensten
+                  {t('nav.services')}
                 </Link>
               </li>
               <li>
                 <Link href="/education" className="hover:text-[#CD3A2F]">
-                  Onderwijs
+                  {t('nav.education')}
                 </Link>
               </li>
               <li>
@@ -59,7 +62,7 @@ export default function Footer() {
                   href="/womens-commission"
                   className="hover:text-[#CD3A2F]"
                 >
-                  Vrouwencommissie
+                  {t('nav.womensCommission')}
                 </Link>
               </li>
             </ul>
@@ -68,22 +71,27 @@ export default function Footer() {
           {/* Important Links */}
           <div>
             <h3 className="text-[#CD3A2F] font-medium text-lg mb-4">
-              Belangrijke links
+              {t('footer.importantLinks')}
             </h3>
             <ul className="space-y-3 text-gray-600">
               <li>
-                <Link href="/membership" className="hover:text-[#CD3A2F]">
-                  Lid worden
+                <Link href="/lid-worden" className="hover:text-[#CD3A2F]">
+                  {t('nav.membership')}
                 </Link>
               </li>
               <li>
-                <Link href="/donate" className="hover:text-[#CD3A2F]">
-                  Doneren
-                </Link>
+                <a 
+                  href="https://betaalverzoek.rabobank.nl/betaalverzoek/?id=33XkU1UVTwKuCEUf5wy6JA"
+                  target="_blank"
+                  rel="noopener noreferrer" 
+                  className="hover:text-[#CD3A2F]"
+                >
+                  {t('nav.donate')}
+                </a>
               </li>
               <li>
                 <Link href="/contact" className="hover:text-[#CD3A2F]">
-                  Contact
+                  {t('nav.contact')}
                 </Link>
               </li>
             </ul>
@@ -91,10 +99,12 @@ export default function Footer() {
 
           {/* Contact Information */}
           <div>
-            <h3 className="text-[#CD3A2F] font-medium text-lg mb-4">Contact</h3>
+            <h3 className="text-[#CD3A2F] font-medium text-lg mb-4">
+              {t('footer.contact')}
+            </h3>
             <ul className="space-y-3 text-gray-600">
-              <li>Hoefslag 9, 4205 NK Gorinchem</li>
-              <li>hdvgorinchem@vakif.nl</li>
+              <li>{t('contact.address.value')}</li>
+              <li>{t('contact.email.value')}</li>
             </ul>
           </div>
         </div>
