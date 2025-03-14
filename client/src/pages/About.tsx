@@ -56,9 +56,11 @@ export default function About() {
                 <p className="text-gray-700 mb-8">
                   {t('about.whoWeAre.description3')}
                 </p>
-                <Button variant="default">
-                  {t('about.whoWeAre.joinButton')}
-                </Button>
+                <Link href="/lid-worden">
+                  <Button variant="default">
+                    {t('about.whoWeAre.joinButton')}
+                  </Button>
+                </Link>
               </div>
             </div>
           </section>
@@ -95,12 +97,14 @@ export default function About() {
                     </span>
                   </li>
                 </ul>
-                <Button
-                  variant="outline"
-                  className="bg-[#CD3A2F] text-white hover:bg-[#B22A20]"
-                >
-                  {t('about.mission.educationButton')}
-                </Button>
+                <Link href="/education">
+                  <Button
+                    variant="outline"
+                    className="bg-[#CD3A2F] text-white hover:bg-[#B22A20]"
+                  >
+                    {t('about.mission.educationButton')}
+                  </Button>
+                </Link>
               </div>
 
               {/* Image */}
@@ -270,9 +274,11 @@ export default function About() {
           <p className="text-lg mb-8 max-w-3xl mx-auto">
             {t('contact.description')}
           </p>
-          <Button className="bg-[#2D2B3F] text-white hover:bg-[#3D3B4F] text-lg px-8 py-6">
-            {t('contact.getInTouch')}
-          </Button>
+          <Link href="/contact">
+            <Button className="bg-[#2D2B3F] text-white hover:bg-[#3D3B4F] text-lg px-8 py-6">
+              {t('contact.getInTouch')}
+            </Button>
+          </Link>
         </div>
       </section>
 
