@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
+import { useEffect } from "react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-import { useEffect } from "react";
 
 export default function Membership() {
   const { t } = useTranslation();
@@ -12,7 +12,7 @@ export default function Membership() {
     script.src = "https://form.jotform.com/jsform/241355412255349";
     script.async = true;
     script.type = "text/javascript";
-    
+
     // Add script to document
     document.getElementById("jotform-container")?.appendChild(script);
 
@@ -54,26 +54,6 @@ export default function Membership() {
         </div>
       </section>
 
-      <Footer />
-    </div>
-  );
-}
-import { useTranslation } from "react-i18next";
-import Navigation from "@/components/Navigation";
-import Footer from "@/components/Footer";
-
-export default function Membership() {
-  const { t } = useTranslation();
-  
-  return (
-    <div className="min-h-screen flex flex-col">
-      <Navigation />
-      <main className="flex-1 container mx-auto px-6 py-12">
-        <h1 className="text-4xl font-serif mb-8">{t('membership.title')}</h1>
-        <div className="prose max-w-none">
-          {/* Add membership content here */}
-        </div>
-      </main>
       <Footer />
     </div>
   );
