@@ -3,7 +3,7 @@ import { Link } from "wouter";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
-import { VirtualTour } from "@/components/VirtualTour";
+// import { VirtualTour } from "@/components/VirtualTour";
 
 export default function About() {
   const { t } = useTranslation();
@@ -114,8 +114,8 @@ export default function About() {
             </div>
           </section>
 
-          {/* Team Section */}
-          <section className="mt-24 mb-24">
+          {/* Team Section - Commented out for future use */}
+          {/* <section className="mt-24 mb-24">
             <h2 className="text-gray-500 mb-2">{t('about.team.subtitle')}</h2>
             <div className="text-center mb-12">
               <h3 className="text-[#CD3A2F] text-4xl font-serif mb-4">
@@ -126,10 +126,9 @@ export default function About() {
               </p>
             </div>
 
-            {/* Team Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               {/* Team Member Card 1 */}
-              <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              {/* <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <div className="aspect-[3/4] relative">
                   <img
                     src="/images/man-male-young-person-icon-vector-10458750.jpg"
@@ -144,7 +143,7 @@ export default function About() {
               </div>
 
               {/* Team Member Card 2 */}
-              <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              {/* <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <div className="aspect-[3/4] relative">
                   <img
                     src="/images/man-male-young-person-icon-vector-10458750.jpg"
@@ -159,7 +158,7 @@ export default function About() {
               </div>
 
               {/* Team Member Card 3 */}
-              <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              {/* <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <div className="aspect-[3/4] relative">
                   <img
                     src="/images/man-male-young-person-icon-vector-10458750.jpg"
@@ -174,7 +173,7 @@ export default function About() {
               </div>
 
               {/* Team Member Card 4 */}
-              <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              {/* <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <div className="aspect-[3/4] relative">
                   <img
                     src="/images/man-male-young-person-icon-vector-10458750.jpg"
@@ -189,7 +188,7 @@ export default function About() {
               </div>
 
               {/* Team Member Card 5 */}
-              <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              {/* <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <div className="aspect-[3/4] relative">
                   <img
                     src="/images/man-male-young-person-icon-vector-10458750.jpg"
@@ -204,7 +203,7 @@ export default function About() {
               </div>
 
               {/* Team Member Card 6 */}
-              <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              {/* <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <div className="aspect-[3/4] relative">
                   <img
                     src="/images/man-male-young-person-icon-vector-10458750.jpg"
@@ -219,7 +218,7 @@ export default function About() {
               </div>
 
               {/* Team Member Card 7 */}
-              <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              {/* <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <div className="aspect-[3/4] relative">
                   <img
                     src="/images/man-male-young-person-icon-vector-10458750.jpg"
@@ -234,7 +233,7 @@ export default function About() {
               </div>
 
               {/* Team Member Card 8 */}
-              <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              {/* <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <div className="aspect-[3/4] relative">
                   <img
                     src="/images/man-male-young-person-icon-vector-10458750.jpg"
@@ -248,10 +247,10 @@ export default function About() {
                 </div>
               </div>
             </div>
-          </section>
+          </section> */}
 
-          {/* Virtual Tour Section */}
-          <VirtualTour />
+          {/* Virtual Tour Section - Commented out for future use */}
+          {/* <VirtualTour /> */}
         </div>
       </main>
 
