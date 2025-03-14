@@ -8,24 +8,24 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo and Social Media */}
           <div>
-            <img 
-              src="/images/hdv-logo.png" 
-              alt="HDV Logo" 
-              className="h-24 w-auto mb-6" 
+            <img
+              src="/images/hdv-logo.png"
+              alt="HDV Logo"
+              className="h-24 w-auto mb-6"
             />
             <div className="flex gap-4">
-              <a 
-                href="https://facebook.com" 
-                target="_blank" 
-                rel="noopener noreferrer" 
+              <a
+                href="https://facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-[#4267B2] hover:opacity-80"
               >
                 <SiFacebook size={24} />
               </a>
-              <a 
-                href="https://instagram.com" 
-                target="_blank" 
-                rel="noopener noreferrer" 
+              <a
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-[#E1306C] hover:opacity-80"
               >
                 <SiInstagram size={24} />
@@ -55,7 +55,10 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/womens-commission" className="hover:text-[#CD3A2F]">
+                <Link
+                  href="/womens-commission"
+                  className="hover:text-[#CD3A2F]"
+                >
                   Vrouwencommissie
                 </Link>
               </li>
@@ -88,13 +91,10 @@ export default function Footer() {
 
           {/* Contact Information */}
           <div>
-            <h3 className="text-[#CD3A2F] font-medium text-lg mb-4">
-              Contact
-            </h3>
+            <h3 className="text-[#CD3A2F] font-medium text-lg mb-4">Contact</h3>
             <ul className="space-y-3 text-gray-600">
-              <li>Koornmarkt 20, 4001 KW Tiel</li>
-              <li>085-0667039</li>
-              <li>hdvtiel@gmail.com</li>
+              <li>Hoefslag 9, 4205 NK Gorinchem</li>
+              <li>hdvgorinchem@vakif.nl</li>
             </ul>
           </div>
         </div>
