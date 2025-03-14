@@ -19,7 +19,7 @@ function Router() {
       <Route path="/services" component={Services} />
       <Route path="/education" component={Education} />
       <Route path="/contact" component={Contact} />
-      <Route path="/membership" component={Membership} />
+      <Route path="/lid-worden" component={Membership} />
       <Route component={NotFound} />
     </Switch>
   );

@@ -13,23 +13,27 @@ export default function Navigation() {
     <nav className="bg-white py-4 px-6 shadow-sm">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <Link href="/">
-          <img src="/images/hdv-logo.png" alt="HDV Logo" className="h-20 w-auto" />
+          <img
+            src="/images/hdv-logo.png"
+            alt="HDV Logo"
+            className="h-20 w-auto"
+          />
         </Link>
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center gap-8">
-          <Link href="/">{t('nav.home')}</Link>
-          <Link href="/about">{t('nav.about')}</Link>
-          <Link href="/education">{t('nav.education')}</Link>
-          <Link href="/services">{t('nav.services')}</Link>
-          <Link href="/contact">{t('nav.contact')}</Link>
+          <Link href="/">{t("nav.home")}</Link>
+          <Link href="/about">{t("nav.about")}</Link>
+          <Link href="/education">{t("nav.education")}</Link>
+          <Link href="/services">{t("nav.services")}</Link>
+          <Link href="/contact">{t("nav.contact")}</Link>
         </div>
 
         <div className="hidden md:flex items-center gap-4">
           <LanguageToggle />
-          <Link href="/membership">
+          <Link href="/lid-worden">
             <Button className="bg-[#CD3A2F] text-white hover:bg-[#9C2A22]">
-              {t('nav.membership')}
+              {t("nav.membership")}
             </Button>
           </Link>
         </div>
@@ -43,15 +47,19 @@ export default function Navigation() {
         </button>
 
         {/* Mobile Menu Overlay */}
-        <div 
+        <div
           className={`fixed inset-0 bg-white z-50 transition-transform duration-300 md:hidden ${
-            isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'
+            isMobileMenuOpen ? "translate-x-0" : "translate-x-full"
           }`}
         >
           <div className="flex flex-col h-full p-6">
             <div className="flex justify-between items-center mb-8">
               <Link href="/" onClick={() => setIsMobileMenuOpen(false)}>
-                <img src="/images/hdv-logo.png" alt="HDV Logo" className="h-20 w-auto" />
+                <img
+                  src="/images/hdv-logo.png"
+                  alt="HDV Logo"
+                  className="h-20 w-auto"
+                />
               </Link>
               <button
                 className="text-gray-600"
@@ -63,26 +71,29 @@ export default function Navigation() {
 
             <div className="flex flex-col space-y-6 text-gray-900 text-xl">
               <Link href="/" onClick={() => setIsMobileMenuOpen(false)}>
-                {t('nav.home')}
+                {t("nav.home")}
               </Link>
               <Link href="/about" onClick={() => setIsMobileMenuOpen(false)}>
-                {t('nav.about')}
+                {t("nav.about")}
               </Link>
-              <Link href="/education" onClick={() => setIsMobileMenuOpen(false)}>
-                {t('nav.education')}
+              <Link
+                href="/education"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                {t("nav.education")}
               </Link>
               <Link href="/services" onClick={() => setIsMobileMenuOpen(false)}>
-                {t('nav.services')}
+                {t("nav.services")}
               </Link>
               <Link href="/contact" onClick={() => setIsMobileMenuOpen(false)}>
-                {t('nav.contact')}
+                {t("nav.contact")}
               </Link>
-              <Link 
-                href="/membership" 
+              <Link
+                href="/lid-worden"
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="text-[#CD3A2F] font-medium hover:text-[#9C2A22]"
               >
-                {t('nav.membership')}
+                {t("nav.membership")}
               </Link>
             </div>
 
