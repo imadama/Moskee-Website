@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import { Link } from "wouter";
 import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
 import Footer from "@/components/Footer";
@@ -27,7 +28,9 @@ export default function Home() {
               <p className="text-primary font-medium mb-4">{t('history.subtitle')}</p>
               <h2 className="text-3xl font-serif mb-6">{t('history.title')}</h2>
               <p className="text-gray-600 mb-8">{t('history.description')}</p>
-              <Button variant="outline">{t('history.readMore')}</Button>
+              <Link href="/about">
+                <Button variant="outline">{t('history.readMore')}</Button>
+              </Link>
             </div>
           </div>
         </section>
@@ -44,9 +47,11 @@ export default function Home() {
           <div className="relative max-w-7xl mx-auto text-center text-white">
             <h2 className="text-3xl font-serif mb-6">{t('support.title')}</h2>
             <p className="mb-8 max-w-2xl mx-auto">{t('support.description')}</p>
-            <Button className="bg-white text-black hover:bg-gray-100">
-              {t('support.joinNow')}
-            </Button>
+            <Link href="/lid-worden">
+              <Button className="bg-white text-black hover:bg-gray-100">
+                {t('support.joinNow')}
+              </Button>
+            </Link>
           </div>
         </section>
 
@@ -64,7 +69,9 @@ export default function Home() {
                   </li>
                 ))}
               </ul>
-              <Button variant="outline">{t('education.learnMore')}</Button>
+              <Link href="/education">
+                <Button variant="outline">{t('education.learnMore')}</Button>
+              </Link>
             </div>
             <div className="relative aspect-[4/3] overflow-hidden rounded-lg shadow-lg">
               <img 
@@ -92,9 +99,11 @@ export default function Home() {
             <p className="text-lg mb-8 max-w-3xl mx-auto">
               {t('contact.description')}
             </p>
-            <Button className="bg-[#2D2B3F] text-white hover:bg-[#3D3B4F] text-lg px-8 py-6">
-              {t('contact.getInTouch')}
-            </Button>
+            <Link href="/contact">
+              <Button className="bg-[#2D2B3F] text-white hover:bg-[#3D3B4F] text-lg px-8 py-6">
+                {t('contact.getInTouch')}
+              </Button>
+            </Link>
           </div>
         </section>
       </main>
