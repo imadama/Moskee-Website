@@ -21,8 +21,8 @@ const mockEvents = [
     id: 1,
     title: "Vrijdaggebed",
     description: "Wekelijks vrijdaggebed met preek van onze imam.",
-    startDate: new Date("2025-03-15T13:30:00"),
-    endDate: new Date("2025-03-15T14:30:00"),
+    startDate: new Date("2024-03-15T13:30:00"),
+    endDate: new Date("2024-03-15T14:30:00"),
     location: "Hoofdgebedsruimte",
     category: "religious",
     isRecurring: true,
@@ -32,8 +32,8 @@ const mockEvents = [
     id: 2,
     title: "Koranlessen voor kinderen",
     description: "Wekelijkse Koranlessen voor kinderen van alle leeftijden.",
-    startDate: new Date("2025-03-16T10:00:00"),
-    endDate: new Date("2025-03-16T13:00:00"),
+    startDate: new Date("2024-03-16T10:00:00"),
+    endDate: new Date("2024-03-16T13:00:00"),
     location: "Onderwijsruimte",
     category: "educational",
     isRecurring: true,
@@ -60,9 +60,6 @@ export default function Events() {
           <h1 className="text-4xl md:text-6xl font-serif mb-6">
             {t('events.title')}
           </h1>
-          <h2 className="text-2xl md:text-3xl mb-4">
-            {t('events.subtitle')}
-          </h2>
           <p className="text-lg max-w-3xl">
             {t('events.description')}
           </p>
@@ -107,7 +104,7 @@ export default function Events() {
                   </TabsTrigger>
                 </TabsList>
 
-                <TabsContent value="all" className="mt-0">
+                <TabsContent value="all">
                   <div className="space-y-6">
                     {filteredEvents.length > 0 ? (
                       filteredEvents.map((event) => (
@@ -132,7 +129,8 @@ export default function Events() {
                             <div className="flex flex-col space-y-4">
                               <div className="flex items-center text-sm text-gray-500">
                                 <Clock className="w-4 h-4 mr-2" />
-                                {event.startDate.toLocaleTimeString()} - {event.endDate.toLocaleTimeString()}
+                                {event.startDate.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })} - 
+                                {event.endDate.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
                               </div>
                               <div className="flex items-center text-sm text-gray-500">
                                 <MapPin className="w-4 h-4 mr-2" />
@@ -156,7 +154,7 @@ export default function Events() {
                     )}
                   </div>
                 </TabsContent>
-              </TabsContent>
+              </Tabs>
             </div>
           </div>
         </div>
