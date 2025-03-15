@@ -1,9 +1,9 @@
 {
   "greetings": {
-    "morning": "Günaydın ve hoş geldiniz",
-    "afternoon": "Tünaydın ve hoş geldiniz",
-    "evening": "İyi akşamlar ve hoş geldiniz",
-    "night": "Hoş geldiniz"
+    "morning": "Günaydın, Süleyman Çelebi Camii'ye hoş geldiniz",
+    "afternoon": "Tünaydın, Süleyman Çelebi Camii'ye hoş geldiniz",
+    "evening": "İyi akşamlar, Süleyman Çelebi Camii'ye hoş geldiniz",
+    "night": "Süleyman Çelebi Camii'ye hoş geldiniz"
   },
   "nav": {
     "home": "Ana Sayfa",
@@ -16,7 +16,6 @@
     "womensCommission": "Kadınlar Komisyonu"
   },
   "hero": {
-    "welcome": "Süleyman Çelebi Camii Gorinchem'e Hoşgeldiniz",
     "title": "İbadet, topluluk ve ilham merkezi",
     "description": "Gorinchem'in kalbinde yer alan Süleyman Çelebi Camii, Hollanda Diyanet Vakfı ile bağlantılı olarak herkes için güvenilir bir mekandır.",
     "learnMore": "Daha Fazla"
