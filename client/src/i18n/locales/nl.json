@@ -1,10 +1,4 @@
 {
-  "greetings": {
-    "morning": "Goedemorgen en welkom bij Süleyman Çelebi Camii",
-    "afternoon": "Goedemiddag en welkom bij Süleyman Çelebi Camii",
-    "evening": "Goedenavond en welkom bij Süleyman Çelebi Camii",
-    "night": "Welkom bij Süleyman Çelebi Camii"
-  },
   "nav": {
     "home": "Home",
     "about": "Over ons",
@@ -16,6 +10,7 @@
     "womensCommission": "Vrouwencommissie"
   },
   "hero": {
+    "welcome": "Welkom bij Süleyman Çelebi Camii Gorinchem",
     "title": "Een plek van gebed, gemeenschap en inspiratie",
     "description": "Gevestigd in het hart van Gorinchem is Süleyman Çelebi Camii, verbonden met Nederlands Diyanet Vakfi, een vertrouwd plek voor iedereen.",
     "learnMore": "Lees meer"
