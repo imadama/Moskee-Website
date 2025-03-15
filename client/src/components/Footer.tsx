@@ -18,7 +18,7 @@ export default function Footer() {
             />
             <div className="flex gap-4">
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/p/HDV-Gorinchem-S%C3%BCleyman-%C3%87elebi-cami-61551672875584/?locale=nl_NL"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#4267B2] hover:opacity-80"
