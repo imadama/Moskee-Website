@@ -24,6 +24,7 @@ export default function Navigation() {
         <div className="hidden md:flex items-center gap-8">
           <Link href="/">{t("nav.home")}</Link>
           <Link href="/about">{t("nav.about")}</Link>
+          <Link href="/events">{t("nav.events")}</Link>
           <Link href="/education">{t("nav.education")}</Link>
           <Link href="/services">{t("nav.services")}</Link>
           <Link href="/contact">{t("nav.contact")}</Link>
@@ -85,6 +86,9 @@ export default function Navigation() {
               </Link>
               <Link href="/about" onClick={() => setIsMobileMenuOpen(false)}>
                 {t("nav.about")}
+              </Link>
+              <Link href="/events" onClick={() => setIsMobileMenuOpen(false)}>
+                {t("nav.events")}
               </Link>
               <Link
                 href="/education"

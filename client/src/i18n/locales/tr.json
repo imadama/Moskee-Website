@@ -7,7 +7,29 @@
     "contact": "İletişim",
     "membership": "Üye Ol",
     "donate": "Bağış Yap",
-    "womensCommission": "Kadınlar Komisyonu"
+    "womensCommission": "Kadınlar Komisyonu",
+    "events": "Etkinlikler"
+  },
+  "events": {
+    "title": "Etkinlikler & Programlar",
+    "subtitle": "Planlanan etkinlikler ve programları keşfedin",
+    "description": "Camimizdeki tüm etkinlikler ve programlardan haberdar olun. Dini kutlamalardan eğitim programlarına kadar, topluluğumuzda her zaman yapılacak bir şeyler var.",
+    "categories": {
+      "all": "Tüm etkinlikler",
+      "religious": "Dini kutlamalar",
+      "educational": "Eğitim programları",
+      "community": "Topluluk aktiviteleri"
+    },
+    "details": {
+      "date": "Tarih",
+      "time": "Saat",
+      "location": "Konum",
+      "category": "Kategori",
+      "description": "Açıklama"
+    },
+    "noEvents": "Şu anda planlanmış etkinlik bulunmamaktadır.",
+    "recurring": "Tekrarlanan etkinlik",
+    "addToCalendar": "Takvime ekle"
   },
   "hero": {
     "welcome": "Süleyman Çelebi Camii Gorinchem'e Hoşgeldiniz",

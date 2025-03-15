@@ -7,7 +7,29 @@
     "contact": "Contact",
     "membership": "Lid worden",
     "donate": "Doneren",
-    "womensCommission": "Vrouwencommissie"
+    "womensCommission": "Vrouwencommissie",
+    "events": "Evenementen"
+  },
+  "events": {
+    "title": "Evenementen & Activiteiten",
+    "subtitle": "Ontdek onze geplande evenementen en activiteiten",
+    "description": "Blijf op de hoogte van alle activiteiten en evenementen in onze moskee. Van religieuze vieringen tot educatieve programma's, er is altijd iets te doen in onze gemeenschap.",
+    "categories": {
+      "all": "Alle evenementen",
+      "religious": "Religieuze vieringen",
+      "educational": "Educatieve programma's",
+      "community": "Gemeenschapsactiviteiten"
+    },
+    "details": {
+      "date": "Datum",
+      "time": "Tijd",
+      "location": "Locatie",
+      "category": "Categorie",
+      "description": "Beschrijving"
+    },
+    "noEvents": "Er zijn momenteel geen geplande evenementen.",
+    "recurring": "Terugkerend evenement",
+    "addToCalendar": "Toevoegen aan agenda"
   },
   "hero": {
     "welcome": "Welkom bij Süleyman Çelebi Camii Gorinchem",
