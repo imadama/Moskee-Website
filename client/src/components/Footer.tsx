@@ -26,7 +26,7 @@ export default function Footer() {
                 <SiFacebook size={24} />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/hdvsuleymancelebi?igsh=MWZ5eXc0ejhkbjJvdw=="
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#E1306C] hover:opacity-80"
