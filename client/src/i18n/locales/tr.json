@@ -1,4 +1,10 @@
 {
+  "greetings": {
+    "morning": "Günaydın ve hoş geldiniz",
+    "afternoon": "Tünaydın ve hoş geldiniz",
+    "evening": "İyi akşamlar ve hoş geldiniz",
+    "night": "Hoş geldiniz"
+  },
   "nav": {
     "home": "Ana Sayfa",
     "about": "Hakkımızda",
@@ -106,7 +112,7 @@
     "getInTouch": "İletişime Geç",
     "email": {
       "title": "E-posta",
-      "value": "hdvtiel@gmail.com"
+      "value": "hdvgorinchem@vakif.nl"
     },
     "phone": {
       "title": "Telefon",

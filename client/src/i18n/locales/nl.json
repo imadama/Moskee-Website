@@ -1,4 +1,10 @@
 {
+  "greetings": {
+    "morning": "Goedemorgen en welkom bij",
+    "afternoon": "Goedemiddag en welkom bij",
+    "evening": "Goedenavond en welkom bij",
+    "night": "Welkom bij"
+  },
   "nav": {
     "home": "Home",
     "about": "Over ons",
