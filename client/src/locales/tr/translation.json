@@ -1,5 +1,46 @@
 {
   "nav": {
-    "donate": "Bağış Yap"
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "events": "Etkinlikler",
+    "education": "Eğitim",
+    "services": "Hizmetler",
+    "contact": "İletişim",
+    "membership": "Üye Ol",
+    "donate": "Bağış Yap",
+    "womensCommission": "Kadın Komisyonu"
+  },
+  "footer": {
+    "quickLinks": "Hızlı Bağlantılar",
+    "importantLinks": "Önemli Bağlantılar",
+    "contact": "İletişim"
+  },
+  "contact": {
+    "address": {
+      "value": "Zuiderpark 89, 4207 AP Gorinchem"
+    },
+    "email": {
+      "value": "info@hdvgorinchem.nl"
+    }
+  },
+  "hero": {
+    "title": "HDV Gorinchem'e Hoş Geldiniz",
+    "subtitle": "Süleyman Çelebi Camii",
+    "description": "Gorinchem'in kalbinde inanç, eğitim ve birlik beraberliğe adanmış bir topluluk."
+  },
+  "services": {
+    "title": "Hizmetlerimiz",
+    "prayer": {
+      "title": "Namaz Hizmetleri",
+      "description": "Günlük namazlar ve Cuma hutbeleri"
+    },
+    "education": {
+      "title": "İslami Eğitim",
+      "description": "Kur'an dersleri ve Arapça eğitimi"
+    },
+    "community": {
+      "title": "Toplum Etkinlikleri",
+      "description": "Her yaştan kişi için etkinlikler ve toplantılar"
+    }
   }
 } 

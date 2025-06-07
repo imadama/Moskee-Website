@@ -1,5 +1,46 @@
 {
   "nav": {
-    "donate": "Doneren"
+    "home": "Home",
+    "about": "Over Ons",
+    "events": "Evenementen",
+    "education": "Onderwijs",
+    "services": "Diensten",
+    "contact": "Contact",
+    "membership": "Lid Worden",
+    "donate": "Doneren",
+    "womensCommission": "Vrouwencommissie"
+  },
+  "footer": {
+    "quickLinks": "Snelle Links",
+    "importantLinks": "Belangrijke Links",
+    "contact": "Contact"
+  },
+  "contact": {
+    "address": {
+      "value": "Zuiderpark 89, 4207 AP Gorinchem"
+    },
+    "email": {
+      "value": "info@hdvgorinchem.nl"
+    }
+  },
+  "hero": {
+    "title": "Welkom bij HDV Gorinchem",
+    "subtitle": "Süleyman Çelebi Camii",
+    "description": "Een gemeenschap gewijd aan geloof, onderwijs en saamhorigheid in het hart van Gorinchem."
+  },
+  "services": {
+    "title": "Onze Diensten",
+    "prayer": {
+      "title": "Gebed Diensten",
+      "description": "Dagelijkse gebeden en vrijdagse khutba's"
+    },
+    "education": {
+      "title": "Islamitisch Onderwijs",
+      "description": "Koranonderwijs en Arabische lessen"
+    },
+    "community": {
+      "title": "Gemeenschapsactiviteiten",
+      "description": "Evenementen en bijeenkomsten voor alle leeftijden"
+    }
   }
 } 
