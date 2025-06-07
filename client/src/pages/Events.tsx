@@ -32,7 +32,7 @@ export default function Events() {
   const [date, setDate] = useState<Date | undefined>(new Date());
   const [selectedCategory, setSelectedCategory] = useState("all");
 
-  const { data: events = [], isLoading, error } = useQuery({
+  const { data: events = [], isLoading, error } = useQuery<CalendarEvent[]>({
     queryKey: ['/api/events'],
     refetchInterval: 1000 * 60 * 15 // Refetch every 15 minutes
   });
@@ -53,7 +53,7 @@ export default function Events() {
     return 'community';
   };
 
-  const filteredEvents = events.filter((event: CalendarEvent) => 
+  const filteredEvents = (events as CalendarEvent[]).filter((event: CalendarEvent) => 
     selectedCategory === "all" || categorizeEvent(event) === selectedCategory
   );
 
@@ -95,8 +95,8 @@ export default function Events() {
 
             {/* Events List Section */}
             <div className="lg:col-span-8">
-              {/* Show configuration message if Google Calendar is not set up */}
-              {!calendarService && (
+              {/* Show configuration message when no events and no error */}
+              {!isLoading && !error && (events as CalendarEvent[]).length === 0 && (
                 <Alert className="mb-6">
                   <AlertCircle className="h-4 w-4" />
                   <AlertDescription>
@@ -133,7 +133,7 @@ export default function Events() {
               )}
 
               {/* Show events when available */}
-              {!isLoading && !error && (
+              {!isLoading && (
                 <Tabs defaultValue="all" className="w-full">
                   <TabsList className="mb-8">
                     <TabsTrigger value="all" onClick={() => setSelectedCategory("all")}>
@@ -153,7 +153,7 @@ export default function Events() {
                   <TabsContent value="all">
                     <div className="space-y-6">
                       {filteredEvents.length > 0 ? (
-                        filteredEvents.map((event) => (
+                        filteredEvents.map((event: CalendarEvent) => (
                           <Card key={event.id}>
                             <CardHeader>
                               <div className="flex items-start justify-between">
@@ -211,7 +211,7 @@ export default function Events() {
                         <Card>
                           <CardContent className="pt-6">
                             <p className="text-center text-gray-500">
-                              {calendarService ? t('events.noEvents') : 'Google Calendar integration is not configured.'}
+                              {(events as CalendarEvent[]).length === 0 ? 'Google Calendar integration is not configured.' : t('events.noEvents')}
                             </p>
                           </CardContent>
                         </Card>
